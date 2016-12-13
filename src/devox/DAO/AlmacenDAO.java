@@ -7,38 +7,85 @@ package devox.DAO;
 
 import devox.POJO.Almacen;
 import devox.POJO.POJO;
+import java.sql.SQLException;
 
 /**
  *
  * @author azaraf
  */
-public class AlmacenDAO implements DAO{
+public class AlmacenDAO extends DAOClass {
 
-    private POJO almacen = null;
-            
+    private String idAlmacenOLD;
+
     public AlmacenDAO() {
-        almacen = new Almacen();
+        obj = new Almacen();
     }
 
-    public AlmacenDAO(String idAlmacen, String descripcion){
-        almacen = new Almacen(idAlmacen, descripcion);
-    }
-    
-    
-    @Override
-    public void alta() {
-        
+    public AlmacenDAO(Almacen almacen) {
+        this.obj = almacen;
+        if (almacen != null) {
+            this.idAlmacenOLD = almacen.getIdAlmacen();
+        }
+
     }
 
-    @Override
-    public void baja() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public AlmacenDAO(String idAlmacen, String descripcion) {
+        obj = new Almacen(idAlmacen, descripcion);
+        this.idAlmacenOLD = idAlmacen;
     }
 
     @Override
-    public void cambio() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public int alta() {
+        if (obj != null) {
+            try {
+                setCstm(con.prepareCall("{call sp_alta_almacen(?,?)}"));
+                getCstm().setString(1, ((Almacen) obj).getIdAlmacen());
+                getCstm().setString(2, ((Almacen) obj).getDescripcion());
+                executeQuery();
+                return SUCCESS;
+            } catch (SQLException e) {
+                e.printStackTrace();
+                return FAIL;
+            }
+        } else {
+            return NOPOJO;
+        }
     }
-    
-    
+
+    @Override
+    public int baja() {
+        if (obj != null) {
+            try {
+                setCstm(con.prepareCall("{call sp_baja_almacen(?)}"));
+                getCstm().setString(1, ((Almacen) obj).getIdAlmacen());
+                executeQuery();
+                return SUCCESS;
+            } catch (SQLException e) {
+                e.printStackTrace();
+                return FAIL;
+            }
+        } else {
+            return NOPOJO;
+        }
+    }
+
+    @Override
+    public int cambio() {
+        if (obj != null) {
+            try {
+                setCstm(con.prepareCall("{call sp_cambio_almacen(?,?,?)}"));
+                getCstm().setString(1, this.idAlmacenOLD);
+                getCstm().setString(2, ((Almacen) obj).getIdAlmacen());
+                getCstm().setString(2, ((Almacen) obj).getDescripcion());
+                executeQuery();
+                return SUCCESS;
+            } catch (SQLException e) {
+                e.printStackTrace();
+                return FAIL;
+            }
+        } else {
+            return NOPOJO;
+        }
+    }
+
 }

@@ -5,21 +5,19 @@
  */
 package devox.DAO;
 
-import devox.POJO.POJO;
 import devox.database.DBC;
-import java.sql.CallableStatement;
 import java.sql.Connection;
-import java.sql.ResultSet;
 
 /**
  *
  * @author azaraf
  */
 public interface DAO {
+    int NOPOJO = -1;
+    int SUCCESS = 0;
+    int FAIL = 1;
     Connection con = DBC.getConnection();
-    CallableStatement cstmt = null;
-    ResultSet rs = null;
-    public void alta();
-    public void baja();
-    public void cambio();
+    public int alta();
+    public int baja();
+    public int cambio();
 }
