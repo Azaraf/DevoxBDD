@@ -6,7 +6,6 @@
 package devox.DAO;
 
 import devox.POJO.Almacen;
-import devox.POJO.POJO;
 import java.sql.SQLException;
 
 /**
