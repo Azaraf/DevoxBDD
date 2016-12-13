@@ -9,7 +9,7 @@ package devox.POJO;
  *
  * @author azaraf
  */
-public class Almacen {
+public class Almacen implements POJO{
     private String idAlmacen;
     private String descripcion;
 
