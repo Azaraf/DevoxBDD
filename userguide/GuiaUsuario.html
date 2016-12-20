@@ -1,0 +1,955 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+    <title>Guía de Usuario Devox</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div id="header">
+
+        <div class="top">
+
+            <!-- Logo -->
+            <div id="logo">
+                <span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+                <h1 id="title">Devox</h1>
+                <p>abbott - DHL México</p>
+            </div>
+
+            <!-- Nav -->
+            <nav id="nav">
+                <!--
+
+								Prologue's nav expects links in one of two formats:
+
+								1. Hash link (scrolls to a different section within the page)
+
+								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+
+								2. Standard link (sends the user to another page/site)
+
+								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+
+							-->
+                <ul>
+                    <li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+                    <li><a href="#instalacion" id="instalacion-link" class="skel-layers-ignoreHref"><span class="icon fa-desktop">Software e instalación</span></a></li>
+                    <li><a href="#firsttime" id="firsttime-link" class="skel-layers-ignoreHref"><span class="icon fa-child">Primera vez en Devox</span></a></li>
+                    <li><a href="#nuevadevolucion" id="nuevadevolucion-link" class="skel-layers-ignoreHref"><span class="icon fa-plus-square">Nueva Devolución</span></a></li>
+                    <li><a href="#devoluciones" id="devoluciones-link" class="skel-layers-ignoreHref"><span class="icon fa-eye">Devoluciones</span></a></li>
+                    <li><a href="#precios" id="precios-link" class="skel-layers-ignoreHref"><span class="icon fa-usd">Precios</span></a></li>
+                    <li><a href="#tarimas" id="tarimas-link" class="skel-layers-ignoreHref"><span class="icon fa-truck">Tarimas</span></a></li>
+                    <li><a href="#catalogos" id="catalogos-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Catálogos</span></a></li>
+                    <li><a href="#contacto" id="contacto-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contacto</span></a></li>
+
+
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- Intro -->
+        <section id="top" class="one dark cover">
+            <div class="container">
+
+                <header>
+                    <h2 class="alt"><strong>Devox</strong><br/>
+								Manual de usuario.</h2>
+                    <p>Guía de inicio y manejo del software
+                        <strong>Devox</strong> para administración de devoluciones de producto de <strong>Abbott</strong></p>
+                </header>
+
+                <footer>
+                    <a href="#nuevadevolucion" class="button scrolly">Ir a "Nueva Devolución"</a>
+                </footer>
+
+            </div>
+        </section>
+
+        <!-- Resumen -->
+        <section id="resumen" class="three">
+            <div class="container">
+
+                <header>
+                    <h2>RESUMEN</h2>
+                </header>
+                <p>Devox es un software creado para administrar las devoluciones de productos en almacén, a través de un sistema que maneje y administre la Base de Datos de productos, clientes, devoluciones y todo lo relativo a ello.</p>
+            </div>
+        </section>
+
+        <!-- Instalacion -->
+        <section id="instalacion" class="three">
+            <div class="container">
+
+                <header>
+                    <h2>INSTALACIÓN</h2>
+                </header>
+
+                <h3>Vista previa del Software</h3>
+                <p>Devox está dividido en dos partes: en una Base de Datos (BD) y una aplicación de escritorio desarrollada en Java©. La BD está implementada en el manejador de Base de Datos MySQL Server, y la aplicación de escritorio establece una conexión local con la base de datos. </p>
+                <a class="image featured"><img src="images/devoxDB.png" alt="" /></a>
+
+                <br>
+                <h4>Requisitos del sistema</h4>
+                <ol>
+                    <li>Sistema operativo: Windows (7, 8 o 10), Mac OSx (10+) o Linux. Procesador recomendado: x64</li>
+                    <li>MySQL Server (5.6+).</li>
+                    <li>Java SE Runtime Environment (1.8+).</li>
+                    <li>Memoria RAM: al menos 4GB (recomendado).</li>
+                    <li>Almacenamiento: al menos 10GB (recomendado). </li>
+                </ol>
+
+                <p>La instalación de Devox se divide en 3 partes: Instalación del manejador MySQL y Java RE; ejecución de scripts para generar la base de datos e instalación de ejecutables Java.</p>
+
+                <h3>MySQL</h3>
+                <a href="http://dev.mysql.com/downloads/mysql/">MySQL Server Community Server</a>
+                <ol>
+                    <li>Descargar el instalador adecuado para el sistema operativo en uso. Hacer instalación de MySQL Server de acuerdo a las <a href="http://dev.mysql.com/doc/refman/5.7/en/installing.html">instrucciones</a> de MySQL.
+                        <p style="color:#98070A"><b>Nota: </b>Garantizar que MySQL Server inicie automáticamente al iniciar el sistema, para evitar iniciar el servidor manualmente. </p>
+                    </li>
+                    <li>Configurar el siguiente usuario (indispensable) para Devox
+                        <table style="width:50%">
+                            <tr>
+                                <td><b>Usuario</b></td>
+                                <td style="font-family:courier;">admin</td>
+                            </tr>
+                            <tr>
+                                <td><b>Contraseña</b></td>
+                                <td style="font-family:courier;">abbott</td>
+                            </tr>
+                            <tr>
+                                <td><b>Host</b></td>
+                                <td style="font-family:courier;">localhost</td>
+                            </tr>
+                            <tr>
+                                <td><b>Privilegios</b></td>
+                                <td style="font-family:courier;">DBA</td>
+                            </tr>
+
+                        </table>
+                    </li>
+
+                </ol>
+                <h3>
+                            Java RE
+                        </h3>
+                <p>
+                    Java (Standard Edition) Runtime Environment 8 (Descarga <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">aquí</a>.)
+                </p>
+                <ol>
+                    <li>Comprobar que su computadora tenga instalado Java RE. En caso de que no, descargar desde el enlace mostrado arriba (Aceptando acuerdos de licencia y descargando la versión adecuada para su sistema operativo). Si está instalada la paquetería de Java en su computadora, asegurarse de tener la última versión. (<a href="http://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html">Instrucciones aquí</a>).
+                    </li>
+                </ol>
+
+                <h3>Ejecución de scripts</h3>
+                <p>En la paquetería de Devox, encontrará un archivo llamado “DevoxDBv1.sql”. Este archivo es imprescindible para la instalación de Devox. Contiene la base de Datos del sistema con los los datos de Clientes, Sucursales, Canales de Venta, Divisiones, Productos, Lotes, Almacenes, Transportistas, Códigos de Razón y Motivos revisados hasta el 21 de Abril del 2016.
+                </p>
+                Llevar a cabo los siguientes pasos:
+                <ol>
+                    <li>Iniciar MySQL en la ventana de comandos.
+                    </li>
+                    <li>Acceder con las credenciales de usuario mayor o usuario “admin” (creado para Devox). </li>
+                    <li>Escribir el siguiente comando en mysql:
+                        <br>
+                        <code>mysql> <b style="color:white">source</b> <i>file_name</i></code>
+                        <br style="color:#98070A"><b>Nota: </b>sustituir <code><i>file_name</i></code> por la ruta del archivo “DevoxDBv1.sql”. Es útil arrastrar el archivo a la ventana de comandos.
+                    </li>
+                    <li>Ejecutar</li>
+                </ol>
+                <p>De esta manera , el sistema iniciará con Datos, pero con ninguna devolución. El folio con el que se inicia es el 000000. Ninguna Tarima existirá. Los precios a iniciar son los entregados en los datasets hasta el 21 de abril 2016.</p>
+                <p>En caso de que se requiera, si se ejecuta el script “DevoxDBv0sinDatos.sql” de la misma manera, creará la base de datos también desde cero, pero sin información de Clientes, Productos, Lotes y todo lo que conlleva (se mantienen los datos de Divisiones, Almacenes, Códigos de Razón y Motivos). </p>
+
+                <h3>Instalación del ejecutable en Java</h3>
+                <p>Dentro de la paquetería de Devox, copiar la carpeta “dist” a la ruta preferida para Devox (por ejemplo, “C:\Program Files\Devox\”). </p>
+                <p>Después de copiar esta carpeta, proceda a abrirla y copiar el archivo “Devox.jar”. Se recomienda pegar el acceso directo en Escritorio o el Menú de Inicio.</p>
+                <p>Para comenzar con Devox, de doble clic al nuevo Acceso Directo. </p>
+            </div>
+        </section>
+
+        <!-- Inicio -->
+        <section id="firsttime" class="three">
+            <div class="container">
+
+                <header>
+                    <h2>INICIANDO CON DEVOX</h2>
+                </header>
+                <h3>Acceso</h3>
+                <p>Para acceder a Devox, es necesario contar con el nombre de Usuario y Contraseña. Al hacer doble clic en el ícono de Devox en el escritorio, y cargue la aplicación, aparecerá una ventana como la siguiente imagen:</p>
+                <figure class="figure align">
+                    <img src="images/cap/cap001.png" alt="Ventana de acceso" class="image tiny" />
+                    <figcaption>Acceso de usuario a Devox </figcaption>
+                </figure>
+
+                <p>A continuación, ingresar Usuario y Contraseña para acceder. Si el usuario y contraseña ingresados no coinciden, el programa notificará al usuario con una alerta de error en acceso. Si es satisfactoria la validación, el usuario podrá continuar a la pantalla de bienvenida de Devox.</p>
+                <h3>Bienvenida</h3>
+                <p>El usuario a continuación podrá presenciar la pantalla principal de Devox que cuanta con simplemente un botón en el lado superior izquierdo de la pantalla, es el botón de Menú Principal.</p>
+
+                <figure class="figure align">
+                    <img src="images/cap/cap002.png" alt="Pantalla de bienvenida" class="image caption" />
+                    <figcaption>Pantalla de bienvenida, el botón de Menú Principal está en el lado superior izquierdo de la pantalla.</figcaption>
+                </figure>
+
+
+                <h3>Lo primero que debes conocer de devox</h3>
+                <p>El menú principal consta de 3 partes: La barra de búsqueda, botón de configuraciones y botones de acceso a funciones de Devox</p>
+                <h4 id="menuprincipal">Menú principal</h4>
+                <p>Al hacer clic en el botón de Menú Principal, se podrán mostrar los enlaces a distintas acciones en Devox</p>
+                <figure class="figure align">
+                    <img src="images/cap/cap004.jpg" alt="Pantalla de bienvenida" class="image caption" />
+                </figure>
+                <p>Los botones de acceso a funciones Devox son listados a continuación.
+                </p>
+                <table class="devox">
+                    <tr>
+                        <th>Ícono</th>
+                        <th>Nombre</th>
+                        <th>Descripción</th>
+                    </tr>
+                    <tr>
+                        <td><img src="images/cap/icon01.png" /></td>
+                        <td><b>Nueva Devolución</b></td>
+                        <td>Abre un nuevo panel para crear un nuevo folio de devolución e insertar productos.</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/cap/icon02.png" /></td>
+                        <td><b>Devoluciones</b></td>
+                        <td>Abre un panel con el listado de las últimas 10 devoluciones. Se pueden ver más devoluciones y buscar alguna en particular por número de folio. También se muestra la suma de devoluciones por estado.</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/cap/icon03.png" /></td>
+                        <td><b>Reportes</b></td>
+                        <td>Muestra listados y conteo de las devoluciones segregados por día (hoy), semana en curso y mes actual. Se pueden generar reportes segregados por fechas y exportarlos.</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/cap/icon04.png" /></td>
+                        <td><b>Estados</b></td>
+                        <td>Devoluciones segregadas por estado. Se pueden cambiar de estado e imprimir reportes.</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/cap/icon05.png" /></td>
+                        <td><b>Precios</b></td>
+                        <td>Abre un panel con la tabla de lista de precios actuales de los productos. También hay opciones de ver precios por folios, insertar nuevos precios y actualizar los precios.</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/cap/icon06.png" /></td>
+                        <td><b>Tarimas</b></td>
+                        <td>Muestra y administra las tarimas de devoluciones.</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/cap/icon07.png" /></td>
+                        <td><b>Catálogos</b></td>
+                        <td>Abre un panel con opción a ver y administrar las entidades del sistema, como Clientes, Productos, Lotes, Almacenes, Canales de venta, Divisiones, Motivos y Transportes.</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/cap/icon08.png" /></td>
+                        <td><b>Búsqueda</b></td>
+                        <td>Abre una ventana nueva para hacer búsquedas sobre Clientes y Lotes en Folios.</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/cap/icon09.png" /></td>
+                        <td><b>Configuraciones</b></td>
+                        <td>Abre una ventana de ajustes: codificación, usuarios, respaldos y ruta para almacenar los archivos PDF.</td>
+                    </tr>
+                </table>
+
+                <p>Antes de arrancar con nuevas devoluciones en Devox, debe de configurar los parámetros iniciales del sistema para poder comenzar.</p>
+                <h4>Configuraciones</h4>
+                <ul>
+                    <li>De clic en el ícono de Configuraciones, abriendo el panel de Menú Principal</li>
+                    <li>A continuación, aparecerá una ventana con cuatro distintas pestañas en el lado superior:
+                        <table>
+                            <tr>
+                                <td>Codificacion</td>
+                            </tr>
+                            <tr>
+                                <td>Usuarios</td>
+                            </tr>
+                            <tr>
+                                <td>Respaldos</td>
+                            </tr>
+                            <tr>
+                                <td>PDF</td>
+                            </tr>
+                        </table>
+                    </li>
+                </ul>
+
+                <h4>Codificación</h4>
+                <figure class="figure align">
+                    <img src="images/cap/cap006.png" alt="" class="image caption" />
+                    <figcaption>Ventana de configuración 1: Codificación</figcaption>
+                </figure>
+                <p>Esta ventana cuenta con un pequeño formulario de 6 espacios. Cada espacio representa la codificación de Sistemas de calidad que se utilizan en DHL para la impresión de reportes. Modifique cada uno de los campos con el código apropiado para cada tipo de reporte.</p>
+
+                <h4>Usuarios</h4>
+                <figure class="figure align">
+                    <img src="images/cap/cap007.png" alt="" class="image caption" />
+                    <figcaption>Ventana de configuración 2: Usuarios</figcaption>
+                </figure>
+                <p>En este módulo puede configurar los usuarios disponibles en Devox. Por defecto existen dos usuarios, mostrados a continuación:</p>
+                <table style="width:50%">
+                    <tr>
+                        <td><b>Usuario</b></td>
+                        <td style="font-family:courier;">admin</td>
+                    </tr>
+                    <tr>
+                        <td><b>Contraseña</b></td>
+                        <td style="font-family:courier;">abbott</td>
+                    </tr>
+                    <tr>
+                        <td><b>Permisos</b></td>
+                        <td style="font-family:courier;">true</td>
+                    </tr>
+                </table>
+                <br>
+                <table style="width:50%">
+                    <tr>
+                        <td><b>Usuario</b></td>
+                        <td style="font-family:courier;">Mari</td>
+                    </tr>
+                    <tr>
+                        <td><b>Contraseña</b></td>
+                        <td style="font-family:courier;">DHL</td>
+                    </tr>
+                    <tr>
+                        <td><b>Permisos</b></td>
+                        <td style="font-family:courier;">false</td>
+                    </tr>
+                </table>
+                <p>El permiso, se define con dos tipos: <b>true</b> y <b>false</b>. El permiso <b>true</b> corresponde a un usuario con el permiso total de administrar Devox, tanto dar altas, bajas y modificación de datos. El permiso <b>false</b> corresponde a los usuarios que requieran entrar a Devox pero no influir directamente en las bases de datos. Es decir, sólo pueden dar de alta nuevas devoluciones, ver las devoluciones hechas y generar reportes (de devoluciones y de tarimas). No pueden acceder a los catálogos, configuraciones ni precios.
+                </p>
+                <p>De click en <b>Nuevo Usuario</b> para agregar a la base un nuevo usuario. Aparecerá un formulario como el de la siguiente figura, donde usted debe de definir el nuevo nombre y contraseña para este usuario. Si da clic en la casilla <b><i>Es  un usuario con todos los permisos</i></b>, el nuevo usuario tendrá todos los permisos del tipo <b>true</b>.</p>
+                <figure class="figure align">
+                    <img src="images/cap/cap009.png" alt="Nuevo Usuario" class="image caption" />
+                </figure>
+                <p>Si da click en el botón <b><i>Eliminar usuario</i></b>, usted podrá eliminar el usuario actualmente seleccionado.</p>
+                <p style="color:#98070A"><b>Nota: </b>Procure no eliminar el usuario que tiene los permisos "true", ya que éste es el único que puede acceder a este panel de configuraciones.</p>
+                <p>El botón <b><i>Editar usuario</i></b> le permite modificar el nombre y/o contraseña del usuario seleccionado.</p>
+
+                <h4>Respaldos</h4>
+                <figure class="figure align">
+                    <img src="images/cap/cap005.png" alt="" class="image caption" />
+                    <figcaption>Ventana de configuración 3: Respaldos</figcaption>
+                </figure>
+                <p>Para hacer un respaldo oportuno de la base de datos, usted necesita ejecutar Devox como un usuario con permisos de administrador del sistema. Haga clic en <b>Hacer respaldo</b> para crear un nuevo archivo de respaldo. El archivo se guarda con la extensión ".sql" y usted debe asegurarse de que la copia de este archivo esté asegurada, pues no cuenta con ningun tipo de cifrado y contiene toda la información de Devox.
+                </p>
+                <p>Si usted desea restaurar algún respaldo ya hecho de devox, haga clic en <b>Restaurar</b> y seleccione el archivo de donde usted tiene el respaldo.
+                </p>
+
+                <h4 id="rutaPDF">PDF</h4>
+                <p>En la última pestaña, se encuentra la ruta por defecto del directorio donde se guardaran copias de los reportes generados en Devox.
+                    <br>Haga click en <b>Cambiar</b> y seleccione la carpeta en su sistema donde quiere guardar los archivos PDF que genera Devox en cada reporte.</p>
+                <p style="color:#98070A"><b>Nota: </b>Es muy importante que usted seleccione la ruta de los archivos a guardar desde que abre por primera vez Devox, ya que se pueden generar los documentos pero en cierto punto del proceso, Devox no encuentre la ruta de los reportes y el archivo quede dañado.</p>
+            </div>
+        </section>
+
+        <!-- Nueva Devolucion -->
+        <section id="nuevadevolucion" class="three">
+            <div class="container">
+
+                <header>
+                    <h2>NUEVA DEVOLUCIÓN</h2>
+                </header>
+
+                <h3>Conceptos de una devolución</h3>
+                <p>Antes de iniciar a capturar productos para una devolución, debe de llenar un formulario adecuadamente para guardar la información que necesita la devolución para ser procesada.
+                </p>
+                <ul>
+                    <li>Haga click en el menú principal</li>
+                    <li>Haga click en el ícono de <b>Nueva devolución</b></li>
+                </ul>
+                Aparecerá un formulario como el siguiente:
+                <figure class="figure align">
+                    <img src="images/cap/cap010.png" alt="" class="image caption" />
+                    <figcaption>Formulario de Devolución</figcaption>
+                </figure>
+                <ol>
+                    <li><b>Folio</b>
+                        <figure class="figure align">
+                            <img src="images/cap/cap011.png" class="image tiny" />
+                            <figcaption>Muestra el folio actual, siendo el anterior inmediato el último folio de devolución capturado. Su orden es incremental, numérico y en formato de 6 dígitos.</figcaption>
+                        </figure>
+                    </li>
+                    <li><b>Estado</b>
+                        <p>
+                            <figure class="figure align">
+                                <img src="images/cap/cap012.png" class="image tiny" />
+                                <figcaption>Muestra el estado inicial de la captura. Siempre será segregación.</figcaption>
+                            </figure>
+                        </p>
+                    </li>
+                    <li><b>Destino</b>
+                        <p>
+                            <figure class="figure align">
+                                <img src="images/cap/cap013.png" class="image tiny" />
+                                <img src="images/cap/cap014.png" class="image tiny" />
+                                <figcaption>Define si la devolución está considerada para productos hacia Destrucción o Productos Aptos. Siendo una devolución de productos aptos, no se define una Tarima ni número de Destrucción Fiscal. Para cambiar el destino, hacer clic sobre el ícono.</figcaption>
+                            </figure>
+                        </p>
+                    </li>
+                    <li><b></b>
+                        <p>
+                            <figure class="figure align">
+                                <img src="images/cap/cap013.png" class="image tiny" />
+                                <figcaption></figcaption>
+                            </figure>
+                        </p>
+                    </li>
+                    <li><b>Cliente</b>
+                        <p>
+                            <figure class="figure align">
+                                <img src="images/cap/cap015.png" class="image tiny" />
+                                <img src="images/cap/cap016.png" class="image tiny" />
+                                <figcaption>Es una barra desplegable que contiene la lista de todas las Sucursales registradas, ordenadas por el número de cliente. Para acceder más rápido a alguna, comenzar a teclear el número de cliente de la Sucursal deseada. Al seleccionar alguna, los campos en gris se autorellenan con el Nombre del Cliente, El nombre de Sucursal y División a la que pertenece.</figcaption>
+                            </figure>
+                        </p>
+                    </li>
+                    <li><b>Fecha de recibido</b>
+                        <p>
+                            <figure class="figure align">
+                                <img src="images/cap/cap018.png" class="image tiny" />
+                                <figcaption>Colocar la fecha en que se recibe la devolución al almacén. Esta fecha diferente puede ser distinta a la fecha de captura, pero nunca un después de esta. Para seleccionar la fecha, hacer clic en el ícono de calendario a la derecha y seleccionar el día.</figcaption>
+                            </figure>
+                        </p>
+                    </li>
+                    <li><b>Código de Razón</b>
+                        <p>
+                            <figure class="figure align">
+                                <img src="images/cap/cap019.png" class="image tiny" />
+                                <figcaption>Seleccionar cualquiera de las dos opciones (71 o 71-M). No podrá continuar la devolución si deja este campo vacío.</figcaption>
+                            </figure>
+                        </p>
+                    </li>
+                    <li><b>Motivo</b>
+                        <p>Enlistados en una barra, seleccionar el código del motivo de devolución.</p>
+                    </li>
+                    <li><b>Almacén</b>
+                        <p>Seleccionar de la barra el código del almacén.</p>
+                    </li>
+                    <li><b>Folio Abbott</b>
+                        <p>Escribir el folio Abbott de la devolución. Pueden ser caracteres alfanuméricos de hasta 40 posiciones.</p>
+                    </li>
+                    <li><b>Folio del Cliente</b>
+                        <p>Escribir el folio del cliente de la devolución. Pueden ser caracteres alfanuméricos de hasta 40 posiciones.</p>
+                    </li>
+                    <li><b>Factura</b>
+                        <p>Escribir la factura correspondiente a la devolución. Pueden ser caracteres alfanuméricos de hasta 40 posiciones.</p>
+                    </li>
+                    <li><b>Tarima</b>
+                        <p>Si la devolución es con destino a Destrucción, poner el nombre de la tarima destino de los productos. Puede ser una tarima que ya exista, o al escribir el nombre de una tarima inexistente, esta se crea como nueva. Mientras la devolución sea con destino a destrucción, no podrá continuar si deja el nombre de la tarima vacío.</p>
+                    </li>
+                    <li><b>Observaciones</b>
+                        <p>Escribir observaciones de la devolución . Por defecto, está la descripción del motivo de devolución, pero se puede cambiar. Si este campo está vacío, no se puede continuar.</p>
+                    </li>
+                    <li><b>Cajas</b>
+                        <p>Definir el número de cajas de la devolución. Por defecto, se define 1 caja.</p>
+                    </li>
+                    <li><b>Transporte</b>
+                        <p>Seleccionar de la barra desplegable el nombre del Transporte de donde procede la devolución.</p>
+                    </li>
+                    <li><b>Destrucción</b>
+                        <p>En una pequeña lista numérica del 1 al 12, seleccionar el folio de destrucción fiscal de la tarima (si aplica).</p>
+                    </li>
+                    <li><b>Codificación</b>
+                        <p>Se muestran los actuales códigos (referencia y destrucción) de Calidad.</p>
+                    </li>
+                </ol>
+                <h3 id="captura">Captura</h3>
+                <p>Al incluir todos los datos de la nueva devolución, presionar la tecla de <b>Continuar</b>. (Si se presiona la tecla de <b>Cancelar</b>, regresa a la página de inicio sin proceder a la captura de productos.) A continuación aparece una pantalla diferente con los elementos necesarios para proceder a capturar productos (imagen 6).</p>
+                <figure class="figure align">
+                    <img src="images/cap/cap020.png" alt="Captura" class="image caption">
+                    <figcaption>Ventana de captura de productos</figcaption>
+                </figure>
+                <p>Abre la ventana para capturar códigos de barras, haciendo clic en el botón <b>Agregar</b></p>
+                <figure class="figure align">
+                    <img src="images/cap/cap028.png" class="image tiny">
+                </figure>
+                <p>Conecte su escáner de códigos de barras a la computadora y coloque el cursor en el campo de texto. Puede escanear un producto o escribir el código de barras manualmente (presionar Entrar para capturar el producto).</p>
+                <figure class="figure align">
+                    <img src="images/cap/cap021.png" alt="Captura" class="image tiny">
+                    <figcaption>Ventana de captura de productos</figcaption>
+                </figure>
+                <p>Tras escanear el Código de Barras, es requisito que el producto exista en la Base de Datos para poder proceder a su captura. Cuando se inserta, aparecerá en su caso una o dos ventanas.</p>
+                <p>La primera es para seleccionar el código interno del producto del código de barras escaneado. Si existe sólo un código interno relacionado al Código de Barras del producto, inmediatamente se toma este como defecto.</p>
+                <figure class="figure align">
+                    <img src="images/cap/cap022.png" alt="Captura" class="image tiny">
+                    <figcaption>Ventana de captura de productos</figcaption>
+                </figure>
+                <p>La segunda ventana es la de selección de Lote. Si en la base de datos el producto cuenta con al menos un Lote, este aparecerá en la lista. Al final de la lista de selección aparecerá la leyenda
+                    <i>Agregar nuevo Lote</i>. En caso de querer agregar un lote nuevo a la base de datos y seleccionar este para el producto de la devolución en curso, seleccione este elemento y de clic en aceptar. A continuación aparecerá una ventana solicitando el nombre del nuevo lote. Escríbalo y de clic en Aceptar.</p>
+                <p>Como se puede observar, el producto ha sido agregado a la tabla de Captura. La suma de productos individualmente, así como el monto total al momento de la devolución aparecen en color azul en la esquina inferior derecha de la tabla. Este dato se va actualizando automáticamente al momento de cualquier entrada o salida de producto en la devolución en curso.</p>
+                <p>Cuando se desee dejar de capturar códigos de barras, cerrar la ventana de “Agregar” con el botón <b>Dejar de capturar</b>.</p>
+                <p>Para agregar un nuevo producto, sin salir de la captura en curso, puede pulsar el botón <b>Agregar nuevo producto</b>. <a href="#agregarnuevoproducto">Cómo dar de alta productos nuevos.</a></p>
+                <p>En caso de que usted necesite eliminar alguno de los productos que capturó, seleccione la fila donde se encuentra el producto a eliminar de la captura y haga clic en el botón <b>Eliminar</b></p>
+                <p style="color:#98070A"><b>Nota: </b>Si aparece una alerta como "El código de barras no existe en la base de datos", pero usted está seguro que se encuentra; es porque el producto no está guardado para el cliente que está utilizando en la captura. Pruebe dar de alta el producto para este cliente en específico.</p>
+                <figure class="figure align">
+                    <img src="images/cap/cap029.png" class="image tiny">
+                </figure>
+                <p>Continue capturando productos de la misma manera. Si requiere editar la cantidad de productos capturados, o evitar capturar varias veces el mismo producto, haga doble clic en la celda de <b>Cantidad</b> en la fila del producto capturado y modifique el número de cantidad de productos. Después presione "Enter" en su teclado.</p>
+                <p>Si usted desea cambiar el precio del producto capturado, haga doble clic en la celda del Precio y modifíquelo. Recuerde que usted debera poner siempre un número con dos decimales (separados por un punto decimal) y sin comas o espacios.
+                    <br>
+                </p>
+
+                <p>Durante la captura, tal vez usted necesite cambiar la tarima de destino a la cual los productos se van registrando (en el caso de devolución No Apta). Para cambiar la tarima de destino, haga clic en el botón <b>Cambiar tarima</b> .
+                </p>
+                <figure class="figure align">
+                    <img src="images/cap/cap030.png" class="image tiny">
+                </figure>
+                <p>Aparecerá una serie de tres ventanas con información de la nueva tarima que quiere usar para la devolución.
+                </p>
+                <figure class="figure align">
+                    <img src="images/cap/cap033.png" class="image tiny">
+                    <img src="images/cap/cap034.png" class="image tiny">
+                    <img src="images/cap/cap035.png" class="image tiny">
+                </figure>
+                <p style="color:#98070A"><b>Nota: </b>Una tarima puede contener productos de distintos folios, e incluso de distintos tipos de clientes. Es responsabilidad del usuario elegir la tarima de la devolución.</p>
+                <p id="imprimir">
+                    Al terminar de capturar todos los productos de la devolución, existen dos procedimientos: Cerrar o Imprimir.</p>
+                <p>El botón “Cerrar” termina la captura y guarda todos los datos en una nueva devolución, pero mantiene el estado de esta en “Segregación”.</p>
+                <figure class="figure align">
+                    <img src="images/cap/cap031.png" class="image tiny">
+                </figure>
+                <p>El botón “Imprimir”, además de también guardar todos los datos en una nueva devolución, cambia el estado de esta a “Captura” y guarda en formato PDF en la <a href="#rutaPDF">ruta configurada</a> el reporte de la devolución. El usuario verá una notificación para elegir si desea abrir el archivo generado. (El archivo se abre externamente con el lector de archivos PDF que tenga instalado el usuario, como puede ser <a href="https://get.adobe.com/es/reader/">Adobe Acrobat Reader</a>).</p>
+                <figure class="figure align">
+                    <img src="images/cap/cap032.png" class="image tiny">
+                </figure>
+                El archivo PDF generado cuenta con dos versiones (ver ejemplos):
+                <ul>
+                    <li><b><a href="ReporteApto.pdf">Reporte de productos aptos</a></b>
+                    </li>
+                    <li><b><a href="ReporteDestruccion.pdf">Relación de productos de destrucción</a></b>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Devoluciones -->
+        <section id="devoluciones" class="three">
+            <div class="container">
+
+                <header>
+                    <h2>DEVOLUCIONES</h2>
+                </header>
+                <p> Las devoluciones cuentan con 4 estados distintos:
+                    <figure class="figure align">
+                        <img src="images/cap/cap037.png" class="image tiny">
+                        <figcaption>Segregación</figcaption>
+                        <img src="images/cap/cap038.png" class="image tiny">
+                        <figcaption>Dictamen</figcaption>
+                        <img src="images/cap/cap039.png" class="image tiny">
+                        <figcaption>Captura DLX</figcaption>
+                        <img src="images/cap/cap040.png" class="image tiny">
+                        <figcaption>Entregado</figcaption>
+                    </figure>
+                </p>
+                <h3>Panel de devolución</h3> Cada devolución aparece como un elemento en forma de Lista en la ventana principal de Devoluciones. De izquierda a derecha:
+                <figure class="figure align">
+                    <img src="images/cap/cap027.png" alt="Pantalla Ver Devoluciones" class="image caption" />
+                </figure>
+                <ul>
+                    <li><b>Número de folio</b>: número de folio DHL de la devolución
+                    </li>
+                    <li><b>Nombre de Cliente</b>
+                    </li>
+                    <li><b>Nombre de la Sucursal de la devolución</b>
+                    </li>
+                    <li><b>Estado de la devolución</b>: segregación, dictamen, captura DLX o entregado.
+                    </li>
+                    <li><b>Fecha de captura</b>
+                    </li>
+                    <li><b>Botón de “Ver más”</b>
+                    </li>
+                    <li><b>Casilla de selección</b>
+                    </li>
+                </ul>
+                <p>
+                    Si usted desea ver más información de una devolución, haga clic en el botón <b>Ver más</b> y aparecerá una ventana como la siguiente.
+                    <figure class="figure align">
+                        <img src="images/cap/cap041.png" alt="Pantalla Ver Más " class="image caption" />
+                    </figure>
+                    En el lado izquierdo podrá observar toda la información de la devolución seleccionada. Podrá editar únicamente el <b>Folio Abbot</b>, <b>Folio Cliente</b>, <b>Factura</b> y <b>Almacén</b>.
+                    <p>Para editarlos, haga clic en el botón "Editar" que está en el panel izquierdo.
+                        <figure class="figure align">
+                            <img src="images/cap/cap042.png" alt="Botón Editar" class="image tiny" />
+                        </figure>
+                    </p>
+                    <p>
+                        Si usted quiere agregar, modificar o eliminar algún producto capturado, también debe de hacer clic en el botón <b>Editar</b>. Una vez habilitado este botón, haga clic en <b>Agregar</b> y podrá proceder a hacer una captura de la misma forma que se instruyó en la <a href="#captura">sección anterior</a>.
+                    </p>
+                    <p>
+                        El botón <b>Cambiar Estado</b> le permite cambiar un producto de un estado, al siguiente (excepto a "Entregado", que es el último estado).
+                        <br>Para guardar todos los cambios hechos, en la captura de productos y en la modificación de los detalles de devolución, <b>usted debe de dar clic en el botón <strong style="font-weight:400">Actualizar</strong></b>.
+                        <br>Si cierra la ventana sin dar clic en este botón, no se guardarán los cambios hechos (excepto el cambio de estado, si lo hizo).
+                    </p>
+                    <p style="color:#98070A"><b>Nota: </b>Las devoluciones, una vez hechas, no se pueden cambiar de destino (apto o destrucción).</p>
+                    <p>
+                        Desde esta ventana usted también puede <a href="#imprimir">imprimir</a> la relación del producto, haciendo un reporte de devolución. De clic en el botón <b>Imprimir</b> para generar el reporte en pdf.
+                    </p>
+
+                    <h4>Ver Devoluciones</h4>
+                    <p>En el <a href="#menuprincipal">menú principal</a> hay tres módulos diferentes que le permiten administrar devoluciones:</p>
+                    <ol>
+                        <li>Devoluciones</li>
+                        <li>Reportes</li>
+                        <li>Estados</li>
+                    </ol>
+                    <br>
+                    <h3>Devoluciones</h3>
+                    <p>
+                        <figure class="figure align">
+                            <img src="images/cap/cap036.png" alt="Pantalla Ver Devoluciones" class="image caption" />
+                        </figure>
+                    </p>
+                    <br> En esta ventana usted podrá observar en general las últimas devoluciones hechas. En la parte inferior podrá observar un pequeño panel con tres opciones: <b>ver últimas devoluciones</b>, <b>ver por fechas</b> y una barra de <b>buscar</b>. Por defecto, podrá usted ver las últimas 10 devoluciones capturadas en Devox, pero si usted requiere ver más o menos, cambie este valor numérico o de clic en las flechas para incrementar o disminuir el número de folios mostrados.
+                    <p>Si usted prefiere ver las devoluciones hechas en un rango específico de fechas, de clic en el botón <b>Ver por fechas</b> y aparecerá una ventana donde tiene que seleccionar el rango exclusivo de fechas que desea que se consulte.</p>
+                    <p>Por último, puede buscar una devolución en específico por número de folio DHL. Escriba en esta barra de búsqueda el número de folio que quiere localizar. Recuerde que la primera devolución tiene el folio 1. Si borra el número de folio que busca, es normal que en el panel aparezca la alerta "<b><i>Sin resultados</i></b>". De clic en alguna de las flechas de ver últimas devoluciones o cambie el número para restablecer el panel.
+                    </p>
+
+                    <h3>Reportes</h3>
+                    <br> El panel de reportes se divide en cuatro subsecciones:
+                    <h4>Hoy</h4>
+                    <br>
+                    <figure class="figure align">
+                        <img src="images/cap/cap043.png" class="image caption" />
+                    </figure>
+                    <p>Puede ver las últimas 10 devoluciones que se han capturado al día. Puede cambiar la cantidad de devoluciones visibles, cambiando el número en <b>Ver últimos</b></p>
+
+                    <h4>Semana</h4>
+                    <br>
+                    <figure class="figure align">
+                        <img src="images/cap/cap044.png" class="image caption" />
+                    </figure>
+                    <p>Puede ver las últimas 10 devoluciones que se han capturado en la semana en curso (de domingo a sábado). Puede cambiar la cantidad de devoluciones visibles, cambiando el número en <b>Ver últimos</b></p>
+
+                    <h4>Mes</h4>
+                    <br>
+                    <figure class="figure align">
+                        <img src="images/cap/cap045.png" class="image caption" />
+                    </figure>
+                    <p>Puede ver las últimas 10 devoluciones que se han capturado en el mes en curso (a partir del día 1). Puede cambiar la cantidad de devoluciones visibles, cambiando el número en <b>Ver últimos</b></p>
+
+                    <h4>Características específicas</h4>
+                    <br>
+                    <figure class="figure align">
+                        <img src="images/cap/cap046.png" class="image caption" />
+                    </figure>
+                    <p>
+                        Este a su vez se divide en <b>Reporte principal</b> (lado izquierdo) y <b>estadísticas</b> (lado derecho).
+                    </p>
+                    <p>
+                        En el reporte principal, usted verá una consulta de todas las devoluciones capturadas en un rango de fecha específicos. Para simplemente ver esta tabla, de clic en el botón <b>Ver reporte principal</b> y al elegir el rango de fechas, una ventana aparecerá con la tabla de detalles de las devoluciones hechas en dentro del rango de fechas que especificó.
+
+                    </p>
+                    <p>Esta tabla la puede exportar a dos tipos diferentes de interfaces: tipo CSV u tipo TXT. El reporte CSV lo puede usted generar haciendo clic en ícono de <b>Exportar reporte principal en Excel</b>. Elija la ruta y el nombre que desee para guardar el archivo generado.</p>
+                    <p>Por otro lado está el reporte con formato RMA. Haga clic en <b>Exportar reporte como TXT</b> y elija también el nombre y ruta para guardarlo.
+                    </p>
+                    <br>
+                    <p>En la sección de <b>Estadísticas</b> verá dos módulos: la cantidad de reportes que hay por día, semana y mes.
+                        <br>En el otro módulo verá la cantidad total de devoluciones en cada estado. Esta cantidad suma todas las devoluciones hechas a lo largo de todo el historial de Devox. Para saber los estados de devoluciones hechas, pero en un rango específico de fechas, de clic en el botón <b>Seleccionar rango de fechas</b> y después de elegir las fechas, en el mismo panel verá los números de devoluciones en cada estado.
+                    </p>
+
+                    <h3>Estados</h3>
+                    <p>
+                        <figure class="figure align">
+                            <img src="images/cap/cap047.png" alt="Pantalla Ver Estados" class="image caption" />
+                        </figure>
+                    </p>
+                    <p>En esta ventana hay cuatro paneles en los que cada uno contiene las devoluciones en los diferentes estados. En los cuatro páneles puede seleccionar, deseleccionar todas las devoluciones en el panel. También puede seleccionar por rango de fechas y ver últimas devoluciones, al igual que en ventanas anteriores se describió esta función.
+                    </p>
+                    <p>Puede seleccionar las devoluciones una a una haciendo clic en la casilla de seleción o dando doble clic en el espacio en general de la devolución.</p>
+                    <p>
+                        Lo distintivo en los páneles de cada estado es la función que tienen para imprimir los <b>reportes de estados</b>. En el panel de segregación puede cambiar al estado Dictamen las devoluciones seleccionadas.
+                    </p>
+                    <p>
+                        En el panel de captura, puede imprimir el reporte de dictaminados de los folios seleccionados (después de seleccionar las devoluciones, haga clic en el botón <b>Imprimir</b>). También, como en el panel anterior, cambie las devoluciones seleccionadas de estado <b>Dictamen</b> a estado <b>Captura DLX</b> con el botón <b>Cambiar a Captura</b>.
+
+                    </p>
+                    <p>En el panel de Captura DLX, después de seleccionar las devoluciones, puede cambiar de estado a <b>Entregado</b> haciendo clic en el botón <b>Cambiar a Entregado</b> o también puede imprimir el reporte y <u>al mismo tiempo</u> cambiar de estado con el botón <b>Imprimir y cambiar a entregado</b>.
+                    </p>
+                    <p>Por último, en el panel de devoluciones en estado <b>Entregado</b>, puede imprimir el reporte de las devoluciones seleccionadas en este estado, con el botón <b>Imprimir</b>.</p>
+
+            </div>
+        </section>
+
+        <!-- Precios -->
+        <section id="precios" class="three">
+            <div class="container">
+
+                <header>
+                    <h2>PRECIOS</h2>
+                </header>
+                <p>
+                    <figure class="figure align">
+                        <img src="images/cap/cap048.png" alt="Pantalla Precios" class="image caption" />
+                    </figure>
+                </p>
+                <p>
+                    En la tabla principal está la tabla con los últimos precios de cada producto registrado. Puede modificar el orden de las columnas, arrastrándolas con el cursor.
+                </p>
+                <h3>Ver precios por folio</h3>
+                <p>
+                    En esta ventana usted puede consultar los precios de cada producto en cierta devolución, buscándola por folio DHL. Para esta función, de clic en <b>Ver precios por folio</b> y a continuación aparecerá una pequeña ventana con la lista de todos los folios. Seleccione el folio del cual quiera consultar información y de clic en Aceptar. En la pantalla, la tabla cambiará y mostrará los productos capturados en esa devolución y su precio.
+
+                </p>
+                <h3>Actualizar precios</h3>
+                <p>
+                    Hay dos maneras de actualizar los precios, por archivo e individualmente. Este primer método describe cómo cambiar los precios de varios productos a partir de un archivo en excel.
+                    <br>Para poder modificar estos precios, usted necesita de un archivo en excel con la lista de todos los precios.
+                </p>
+                <h4>Pasos para actualizar precios</h4>
+                <ul>
+                    <li>El orden de los datos debe ser el siguiente: <b>Código de barras</b>, <b>Código de producto</b>, <b>Clave del cliente</b> y <b>Precio</b>.
+                    </li>
+                    <li>La tabla de excel no debe de contar con encabezados de tabla. También debe considerar que los precios sean sólo un número con dos decimales (separado por punto) y sin comas.
+                    </li>
+                    <li>Exporte la tabla como un archivo<b>CSV</b> (instrucciones para exportar en <a href="https://support.office.com/es-es/article/Importar-o-exportar-archivos-de-texto-txt-o-csv-5250ac4c-663c-47ce-937b-339e391393ba">Microsoft Office Excel</a>)</li>
+                    <li>
+                        Considere que Microsoft Office Excel suele modificar el formato de números grandes en algunos datos. Cuide que Excel no cambie el número del código de barras, o cualquier dato en general.
+                    </li>
+                    <li>
+                        Una vez creado el archivo CSV, vaya a Devox y de clic en el botón <b>Actualizar precios</b>
+                    </li>
+                    <li>
+                        Busque el archivo que acaba de generar, con la extensión .csv y selecciónelo
+                    </li>
+                    <li>Aparecerá una ventana con todos los datos del archivo. Si hay algo que no concuerda o coincide en el archivo, lo notará en esta tabla. Puede, si lo desea, editar una última vez alguna fila.</li>
+                    <li>De clic derecho sobre cualquier fila para poder agregar una nueva fila (en caso de añadir otro producto) o eliminar alguna fila seleccionada.</li>
+                    <li>De clic en el botón <b>Actualizar</b>. Verá en la barra de progreso el estado de la actualización</li>
+                </ul>
+                <p>Al final de la actualización, le aparecerá una ventana emergente que indicará que los precios han sido actualizados. Cierre la ventana de Actualizar precios para concluir esta operación.</p>
+                <p style="color:#98070A"><b>Nota: </b>Recuerde que los precios solo se actualizan sobre productos que ya existen. Para agregar productos vaya a <a href="#agregarProductoNuevo">agregar producto nuevo</a>.</p>
+                <h3>Insertar nuevo precio</h3>
+                <p>
+                    El cambio de precios también puede ser individual. De clic en el botón <b>insertar nuevo precio</b> y aparecerá una ventana como la siguiente:
+                    <figure class="figure align">
+                        <img src="images/cap/cap049.png" class="image tiny" />
+                    </figure>
+                </p>
+                <p>Seleccione el número del código de barras (puede escanearlo), inserte el código de producto, clave de cliente y precio (use dos decimales, separados por un punto y sin comas o espacios).
+                    <br>De clic en Aceptar y se guardará el nuevo precio.
+                </p>
+                <p>La fecha de actualización del precio corresponde al momento en el que esta actualización se lleva a cabo.</p>
+
+            </div>
+        </section>
+
+        <!-- Tarimas -->
+        <section id="tarimas" class="three">
+            <div class="container">
+
+                <header>
+                    <h2>TARIMAS</h2>
+                </header>
+                <p>
+                    Las tarimas contienen los productos que, cuya devolución destino es destrucción.
+                    <figure class="figure align">
+                        <img src="images/cap/cap050.png" alt="Pantalla Tarimas" class="image caption" />
+                    </figure>
+                </p>
+                <p>En este panel, igual que en los de devoluciones, puede observar las últimas 10 tarimas, ordenadas por fecha de creación. siempre, la última tarima es la tarima abierta (color azul). Las dos fechas que aparecen en el módulo de la tarima representan, en color azul, la fecha de creación, y en negro la fecha en la que fue cerrada.
+                </p>
+                <p>Una tarima es identificada por un nombre específico que define siempre el usuario. Procure que este nombre no se vea repetido nunca. Las tarimas, aunque estén cerradas, pueden recibir todavía productos.</p>
+                <p>De clic en el botón "Ver más" de una tarima en específico.
+                    <figure class="figure align">
+                        <img src="images/cap/cap051.png" alt="Pantalla Tarimas" class="image caption" />
+                    </figure>
+                    <br>Podrá observar todos los productos de la tarima e información de ella. Para generar el reporte de la tarima en PDF, de clic en <b>Imprimir</b>.
+                    <a href="ReporteTarima.pdf">Ver ejemplo de reporte de tarima.</a>
+                </p>
+
+
+            </div>
+        </section>
+
+        <!-- Catálogos -->
+        <section id="catalogos" class="three">
+            <div class="container">
+
+                <header>
+                    <h2>CATÁLOGOS</h2>
+                </header>
+                <p>De la barra en la parte superior en la ventana de catálogos, seleccione el elemento que quiere consultar para ver la lista.</p>
+                <figure class="figure align">
+                    <img src="images/cap/cap054.png" class="image tiny">
+                </figure>
+                <h3>Clientes</h3>
+                <p>Cada <b>Cliente</b> cuenta con un identificador: el <b>RFC</b>. El cliente, a su vez tiene una o más <b>Sucursales</b> que están identificadas por un <b>Código de Cliente</b>, o también conocido como <b>Clave del cliente</b> (o sucursal). A su vez, los clientes pueden tener alguno de los <b>Canales de venta</b> y las sucursales pertenecen a distintas <b>divisiones</b>.
+                </p>
+                <figure class="figure align">
+                    <img src="images/cap/cap052.png" class="image tiny">
+                </figure>
+                <h4 id="ventanaagregarcliente">Alta</h4>
+                <p>De clic en el ícono de agregar (<img src="images/cap/cap053.png" class="image tiny">) y podrás observar la ventana de Nuevo cliente.</p>
+                <ul>
+                    <li><b>Cliente</b>: en el primer apartado, selecciona la casilla <i>Nuevo Cliente</i> y escriba el RFC y nombre del cliente. En caso de querer usar un cliente que ya existe, seleccione la casilla <i>Usar cliente existente</i> y eliga de la lista el cliente.</li>
+                    <li><b>Sucursal</b>: en el segundo apartado, seleccione la casilla <i>Nueva Sucursal</i> y escriba la clave de cliente y nombre de sucursal en los respectivos campos.</li>
+                    <li><b>División</b>: en el tercer apartado, haga clic en la casilla <i>Usar división existente</i> para utilizar alguna en existencia, o en <i>Nueva división</i> para crear una nueva división.</li>
+                    <li><b>Canal de venta</b>: en el último apartado, haga clic en la casilla <i>Usar canal de venta existente</i> para elegir una de las que están en la base de datos. Sino, de clic en <i>Nuevo Canal de Venta</i> para crear una nueva.</li>
+                </ul>
+                <p>
+                    Haga clic en <b>Aceptar</b> y el cliente nuevo sera creado.
+                </p>
+                <h4>Baja</h4>
+                <p>Seleccione la fila del cliente que desea eliminar. De clic en el ícono de eliminar (<img src="images/cap/cap055.png" class="image tiny">) y a continuación aparecerá una ventana emergente, con las siguientes indicaciones:</p>
+                <b>Confirmación</b>: Devox le pide confirmar que desea eliminar el cliente. De clic en <b>Aceptar</b> para confirmar.
+                <p style="color:#98070A"><b>Nota: </b>En caso de que el cliente tenga productos relacionados a él, no podrá eliminarlo hasta que borre de la base de datos los productos relacionados a dicha sucursal. (Vea <a href="#eliminarproductos">eliminar productos</a>)</p>
+
+                <h4>Cambio</h4>
+                <p>Seleccione la fila del cliente que desea editar. De clic en el ícono de editar (<img src="images/cap/cap056.png" class="image tiny">) y a continuación aparecerá una ventana para confirmar que usted desea editar este cliente. De clic en <b>Aceptar</b> y al igual que en alta, la <a href="ventanaagregarcliente">ventana de agregar</a> aparecerá. Cambie los datos del cliente seleccionado de la siguiente forma:</p>
+                <ul>
+                    <li><b>Cliente</b>: en el primer apartado, selecciona la casilla <i>Editar Cliente existente</i> y escriba el RFC y nombre del cliente. En caso de querer usar el mismo cliente, seleccione la casilla <i>Usar cliente existente</i> y eliga de la lista el cliente que necesite.</li>
+                    <li><b>Sucursal</b>: en el segundo apartado, mantenga seleccionada la casilla <i>Editar Sucursal existente</i> y escriba la clave de cliente y nombre de sucursal en los respectivos campos.</li>
+                    <li><b>División</b>: en el tercer apartado, haga clic en la casilla <i>Usar división existente</i> para utilizar alguna en existencia, o en <i>Nueva división</i> para crear una nueva división.</li>
+                    <li><b>Canal de venta</b>: en el último apartado, haga clic en la casilla <i>Usar canal de venta existente</i> para elegir una de las que están en la base de datos. Sino, de clic en <i>Nuevo Canal de Venta</i> para crear una nueva.</li>
+                </ul>
+                <p>
+                    Haga clic en <b>Aceptar</b> y el cliente se guardará con su respectiva edición.
+                </p>
+                <h3>Productos</h3>
+                <h4 id="agregarnuevoproducto">Alta</h4>
+                <figure class="figure align">
+                    <img src="images/cap/cap058.png" class="image tiny">
+                </figure>
+                <p>De clic en el ícono de agregar (<img src="images/cap/cap053.png" class="image tiny">) y podrás observar la ventana de Nuevo producto.</p>
+                <ul>
+                    <li><b>Código de barras</b>: escriba el código de barras del nuevo producto.</li>
+                    <li><b>Código interno</b>: escriba el código interno del nuevo producto.</li>
+                    <li><b>Descripción</b>: escriba el nombre descriptivo del producto nuevo.</li>
+                    <li><b>División</b>: elija de la lista la división a la que pertenece el nuevo producto.</li>
+                </ul>
+                <p>Después de llenar estos datos, aparecerá en la pantalla una lista como la siguiente:</p>
+                <figure class="figure align">
+                    <img src="images/cap/cap057.png" class="image tiny">
+                    <figcaption>Esta tabla corresponde a la división <i>ANI</i></figcaption>
+                </figure>
+                <p>De clic en la celda de la columna <b>Precio</b>, y escriba el precio con decimales, sin espacios ni comas, que corresponde a este nuevo producto. Haga lo mismo para todos los clientes en la tabla.</p>
+                <p>Una vez completada la lista, de clic en <b>Guardar</b>. Si deja un espacio en blanco, por defecto se guardará el precio en 0.00.</p>
+                <h4 id="eliminarproductos">Baja</h4>
+                <p>Seleccione la fila del producto que desea eliminar. De clic en el ícono de eliminar (<img src="images/cap/cap055.png" class="image tiny">) y a continuación aparecerá una ventana emergente, con las siguientes indicaciones:</p>
+                <b>Confirmación</b>: Devox le pide confirmar que desea eliminar el producto. De clic en <b>Aceptar</b> para confirmar.
+                <figure class="figure align">
+                    <img src="images/cap/cap059.png" class="image tiny">
+                </figure>
+                <br><b>Seleccione una opción: De todos los clientes o Sólo de esta sucursal</b>: Devox le pide confirmar que desea eliminar el producto. <b>De todos los clientes</b> se refiere a eliminar el producto de todas las sucursales existentes. <b>Sólo esta sucursal</b> sólo elimina el producto de la sucursal que seleccionó.
+                <p style="color:#98070A"><b>Nota: </b>En caso de que el producto tenga devoluciones relacionadas a él, no podrá eliminarlo.</p>
+
+                <h4>Cambio</h4>
+                <p>Seleccione un producto que desea cambiar. De clic en el ícono de editar (<img src="images/cap/cap056.png" class="image tiny">) y aparecerá la misma ventana que en Agregar Producto, sólo que llena con los datos del producto a editar.</p>
+                <p>Llene los campos de precios en la tabla y al terminar, de clic en <b>Guardar</b></p>
+
+                <h3>Lotes</h3>
+                <h4>Alta</h4>
+                <p>De clic en el ícono de agregar (<img src="images/cap/cap053.png" class="image tiny">) y podrás observar la ventana de Nuevo lote.</p>
+                <p>Seleccione de la lista el código de producto al que quiere agregar un lote. Escriba en el siguiente campo el nuevo lote y de clic en Aceptar.</p>
+                <h4>Baja</h4>
+                <p>Seleccione el lote que desea eliminar. De clic en el ícono de eliminar (<img src="images/cap/cap055.png" class="image tiny">) y aparecerá la ventana de confirmación para borrar el lote seleccionado. De clic en <b>Aceptar</b> para continuar.</p>
+                <h4>Cambio</h4>
+                <p>Seleccione el lote que desea editar. De clic en el ícono de editar (<img src="images/cap/cap056.png" class="image tiny">) y aparecerá la ventana de confirmación para editar el lote seleccionado. De clic en <b>Aceptar</b> para continuar. Aparecerá la misma ventana de "Agregar" pero con los campos del lote seleccionado. Modifique los datos y para guardar de clic en <b>Aceptar</b>.</p>
+
+
+                <h3>Almacenes</h3>
+                <h4>Alta</h4>
+                <p>De clic en el ícono de agregar (<img src="images/cap/cap053.png" class="image tiny">) y podrás observar la ventana de Nuevo Almacén.</p>
+                <p>Escriba en los campos la descripción y CV del nuevo almacén y de clic en Aceptar.</p>
+                <h4>Baja</h4>
+                <p>Seleccione el almacén que desea eliminar. De clic en el ícono de eliminar (<img src="images/cap/cap055.png" class="image tiny">) y aparecerá la ventana de confirmación para borrar el almacén seleccionado. De clic en <b>Aceptar</b> para continuar.</p>
+                <h4>Cambio</h4>
+                <p>Seleccione el almacén que desea editar. De clic en el ícono de editar (<img src="images/cap/cap056.png" class="image tiny">) y aparecerá la ventana de confirmación para editar el almacén seleccionado. De clic en <b>Aceptar</b> para continuar. Aparecerá la misma ventana de "Agregar" pero con los campos del almacén seleccionado. Modifique los datos y para guardar de clic en <b>Aceptar</b>.</p>
+
+                <h3>Canales de Venta</h3>
+                <h4>Alta</h4>
+                <p>De clic en el ícono de agregar (<img src="images/cap/cap053.png" class="image tiny">) y podrás observar la ventana de Nuevo Canal de Venta.</p>
+                <p>Escriba en el siguiente campo el nuevo canal de venta y de clic en Aceptar.</p>
+                <h4>Baja</h4>
+                <p>Seleccione el canal de venta que desea eliminar. De clic en el ícono de eliminar (<img src="images/cap/cap055.png" class="image tiny">) y aparecerá la ventana de confirmación para borrar el canal de venta seleccionado. De clic en <b>Aceptar</b> para continuar.</p>
+                <h4>Cambio</h4>
+                <p>Seleccione el canal de venta que desea editar. De clic en el ícono de editar (<img src="images/cap/cap056.png" class="image tiny">) y aparecerá la ventana de confirmación para editar el canal de venta seleccionado. De clic en <b>Aceptar</b> para continuar. Aparecerá la misma ventana de "Agregar" pero con el campo de canal de venta seleccionado. Modifique los datos y para guardar de clic en <b>Aceptar</b>.</p>
+
+
+                <h3>Divisiones</h3>
+                <h4>Alta</h4>
+                <p>De clic en el ícono de agregar (<img src="images/cap/cap053.png" class="image tiny">) y podrás observar la ventana de Nueva división.</p>
+                <p>Escriba en el siguiente campo la nueva división y de clic en Aceptar.</p>
+                <h4>Baja</h4>
+                <p>Seleccione la división que desea eliminar. De clic en el ícono de eliminar (<img src="images/cap/cap055.png" class="image tiny">) y aparecerá la ventana de confirmación para borrar la división seleccionada. De clic en <b>Aceptar</b> para continuar.</p>
+                <h4>Cambio</h4>
+                <p>Seleccione la división que desea editar. De clic en el ícono de eliminar (<img src="images/cap/cap056.png" class="image tiny">) y aparecerá la ventana de confirmación para editar la división seleccionada. De clic en <b>Aceptar</b> para continuar. Aparecerá la misma ventana de "Agregar" pero con los campos de la división seleccionada. Modifique los datos y para guardar de clic en <b>Aceptar</b>.</p>
+
+
+                <h3>Motivos</h3>
+                <h4>Alta</h4>
+                <p>De clic en el ícono de agregar (<img src="images/cap/cap053.png" class="image tiny">) y podrás observar la ventana de Nuevo Motivo.</p>
+                <p>Escriba en los campos la descripción y el ID del nuevo motivo y de clic en Aceptar.</p>
+                <h4>Baja</h4>
+                <p>Seleccione el motivo que desea eliminar. De clic en el ícono de eliminar (<img src="images/cap/cap055.png" class="image tiny">) y aparecerá la ventana de confirmación para borrar el motivo seleccionado. De clic en <b>Aceptar</b> para continuar.</p>
+                <h4>Cambio</h4>
+                <p>Seleccione el motivo que desea editar. De clic en el ícono de editar (<img src="images/cap/cap056.png" class="image tiny">) y aparecerá la ventana de confirmación para editar el motivo seleccionado. De clic en <b>Aceptar</b> para continuar. Aparecerá la misma ventana de "Agregar" pero con los campos del motivo seleccionado. Modifique los datos y para guardar de clic en <b>Aceptar</b>.</p>
+
+
+                <h3>Transportes</h3>
+                <h4>Alta</h4>
+                <p>De clic en el ícono de agregar (<img src="images/cap/cap053.png" class="image tiny">) y podrás observar la ventana de Nuevo Transporte.</p>
+                <p>Escriba en los siguientes campos el nuevo transporte y su ID y de clic en Aceptar.</p>
+                <h4>Baja</h4>
+                <p>Seleccione el transporte que desea eliminar. De clic en el ícono de eliminar (<img src="images/cap/cap055.png" class="image tiny">) y aparecerá la ventana de confirmación para borrar el transporte seleccionado. De clic en <b>Aceptar</b> para continuar.</p>
+                <h4>Cambio</h4>
+                <p>Seleccione el transporte que desea editar. De clic en el ícono de editar (<img src="images/cap/cap056.png" class="image tiny">) y aparecerá la ventana de confirmación para editar el transporte seleccionado. De clic en <b>Aceptar</b> para continuar. Aparecerá la misma ventana de "Agregar" pero con los campos del transporte seleccionado. Modifique los datos y para guardar de clic en <b>Aceptar</b>.</p>
+
+            </div>
+        </section>
+
+        <!-- Contact -->
+        
+        <section id="contacto" class="four">
+            <div class="container">
+                <header>
+                    <h2>CONTACTO</h2>
+                </header>
+                <h4><span class="icon fa-envelope"> Correo <a href="mailto:aza.369@gmail.com?Subject=Devox" target="_top">aza.369@gmail.com</a></h4>
+                <h5><span class="icon fa-globe"> <a href="http://www.traceback.com.mx">Traceback &amp; Business Technologies</a></h5>
+            </div>
+        </section>
+
+
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+
+        <!-- Copyright -->
+        <ul class="copyright">
+            <li>&copy; Devox. Derechos reservados. David Azaraf Vargas Baza.</li>
+            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollzer.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

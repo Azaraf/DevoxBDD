@@ -1,0 +1,272 @@
+*****************17/11/2016 12:08:37.522*****************
+12:08:37.523 -> Devox v 1.3.161005.18
+12:08:49.428 -> Nuevo intento de acceso con usuario: admin
+12:08:49.998 -> Ingresó como usuario con permisos
+12:08:50.130 -> El usario cerró el programa
+
+12:08:50.422 -> Se abrió una nueva ventana Home
+12:08:50.575 -> Actions created
+12:08:53.201 -> nuevaDevolucion con posicion captura: 0
+12:08:53.331 -> Nueva devolución: 001422
+12:10:43.805 -> Setting the Tarima
+12:10:43.805 -> El nombre de la tarima está vacío
+12:11:02.334 -> Setting the Tarima
+12:11:02.498 -> Esta tarima aún no está cerrada
+12:11:02.511 -> La tarima
+12:11:02.512 -> Procede a capturar la devolución 001422 nueva
+12:12:23.835 -> Checando el CodigoBarras 7501033920110, cantidad 1, 
+12:12:23.880 -> El código de barras existe
+12:12:24.031 -> Se obtuvo el idProducto
+12:12:24.034 -> Se obtuvieron lotes
+12:12:24.034 -> Se obtuvieron precios
+12:12:24.036 -> Se verificó completamente el código de barras
+12:13:20.868 -> Checando el CodigoBarras 7501033920110, cantidad 1, 
+12:13:20.871 -> El código de barras existe
+12:13:20.873 -> Se obtuvo el idProducto
+12:13:20.876 -> Se obtuvieron lotes
+12:13:20.876 -> Se obtuvieron precios
+12:13:20.876 -> Se verificó completamente el código de barras
+12:13:20.877 -> suma: Producto: 7501033920110 100T115G01150 , lote 37443MC, Cantidad 2, Monto total: 34.82
+12:13:38.340 -> precio final de esta dev: $17.41
+12:13:38.340 -> precio final de esta dev: $17.41
+12:13:39.416 -> Guardó la devolución 001422.
+12:13:39.947 -> Esta tarima aún no está cerrada
+12:13:39.951 -> Esta tarima aún no está cerrada
+12:13:51.179 -> Abre ver devoluciones
+12:13:51.988 -> debug: lista size: 1 linea 53 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:13:52.037 -> debug: lista size: 2 linea 53 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:13:52.074 -> debug: lista size: 3 linea 53 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:13:52.157 -> debug: lista size: 4 linea 53 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:13:52.208 -> debug: lista size: 5 linea 53 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:13:52.266 -> debug: lista size: 6 linea 53 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:13:52.312 -> debug: lista size: 7 linea 53 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:13:52.364 -> debug: lista size: 8 linea 53 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:13:52.448 -> debug: lista size: 9 linea 53 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:13:52.547 -> debug: lista size: 10 linea 53 clase com.devox.LOG.cuadricula.ListaCuadriculas
+*****************17/11/2016 12:14:32.261*****************
+12:14:32.264 -> Devox v 1.3.161005.18
+12:14:41.831 -> Nuevo intento de acceso con usuario: admin
+12:14:42.348 -> Ingresó como usuario con permisos
+12:14:42.458 -> El usario cerró el programa
+
+12:14:42.582 -> Se abrió una nueva ventana Home
+12:14:42.591 -> Actions created
+12:14:48.788 -> Abre ver devoluciones
+12:14:50.170 -> debug: lista size: 1 linea 53 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:14:50.287 -> debug: lista size: 2 linea 53 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:14:50.392 -> debug: lista size: 3 linea 53 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:14:50.486 -> debug: lista size: 4 linea 53 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:14:50.568 -> debug: lista size: 5 linea 53 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:14:50.745 -> debug: lista size: 6 linea 53 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:14:50.863 -> debug: lista size: 7 linea 53 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:14:50.947 -> debug: lista size: 8 linea 53 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:14:51.032 -> debug: lista size: 9 linea 53 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:14:51.109 -> debug: lista size: 10 linea 53 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:15:08.613 -> Abre ver estados
+12:15:10.250 -> debug: lista size: 11 linea 129 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:15:10.321 -> debug: lista size: 12 linea 129 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:15:10.370 -> debug: lista size: 13 linea 129 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:15:10.459 -> debug: lista size: 14 linea 129 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:15:10.518 -> debug: lista size: 15 linea 129 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:15:10.582 -> debug: lista size: 16 linea 129 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:15:10.653 -> debug: lista size: 17 linea 129 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:15:10.722 -> debug: lista size: 18 linea 129 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:15:10.792 -> debug: lista size: 19 linea 129 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:15:10.839 -> debug: lista size: 20 linea 129 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:15:10.921 -> debug: lista size: 21 linea 129 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:15:10.995 -> debug: lista size: 22 linea 129 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:15:11.070 -> debug: lista size: 23 linea 129 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:15:11.114 -> debug: lista size: 24 linea 129 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:15:11.156 -> debug: lista size: 25 linea 129 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:15:11.208 -> debug: lista size: 26 linea 129 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:15:11.279 -> debug: lista size: 27 linea 129 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:15:11.362 -> debug: lista size: 28 linea 129 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:15:11.397 -> debug: lista size: 29 linea 129 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:15:11.456 -> debug: lista size: 30 linea 129 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:15:11.545 -> debug: lista size: 31 linea 129 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:15:11.592 -> debug: lista size: 32 linea 129 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:15:11.641 -> debug: lista size: 33 linea 129 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:15:11.685 -> debug: lista size: 34 linea 129 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:15:11.761 -> debug: lista size: 35 linea 129 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:15:11.839 -> debug: lista size: 36 linea 129 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:15:11.876 -> debug: lista size: 37 linea 129 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:15:11.940 -> debug: lista size: 38 linea 129 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:15:11.998 -> debug: lista size: 39 linea 129 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:15:12.050 -> debug: lista size: 40 linea 129 clase com.devox.LOG.cuadricula.ListaCuadriculas
+12:16:14.288 -> Abre ver tarimas
+12:16:14.595 -> Esta tarima aún no está cerrada
+12:16:22.335 -> Abre ver precios
+12:16:29.701 -> Abre ver catálogo
+12:16:39.954 -> Abre ver reportes
+12:21:11.803 -> Guardado en PDF! pdf.crear(new File("/Reportes/Destruccion/Folio_001422.pdf"));
+12:21:13.330 -> nuevaDevolucion con posicion captura: 0
+12:21:13.332 -> Nueva devolución: 001423
+12:22:32.321 -> Abre ver catálogo
+12:44:33.774 -> ROW SELECTED: 16
+12:44:33.877 -> ROW SELECTED: 16
+12:44:35.719 -> ROW SELECTED: 135
+12:44:35.825 -> ROW SELECTED: 135
+12:44:42.831 -> row selected: -1
+12:44:42.831 -> ROW SELECTED: 135
+12:44:42.831 -> ROW SELECTED: 135
+12:44:44.272 -> row selected: -1
+12:44:44.272 -> row selected: -1
+12:44:44.273 -> row selected: -1
+12:44:44.273 -> row selected: -1
+12:44:51.351 -> ROW SELECTED: 90
+12:44:51.447 -> ROW SELECTED: 90
+12:44:51.921 -> ROW SELECTED: 91
+12:44:52.009 -> ROW SELECTED: 91
+12:44:54.689 -> ROW SELECTED: 90
+12:44:54.801 -> ROW SELECTED: 90
+12:44:57.136 -> ROW SELECTED: 91
+12:44:57.240 -> ROW SELECTED: 91
+12:45:07.767 -> ROW SELECTED: 90
+12:45:07.905 -> ROW SELECTED: 90
+12:47:57.456 -> ROW SELECTED: 0
+12:47:57.560 -> ROW SELECTED: 0
+12:48:04.102 -> ROW SELECTED: 1
+12:48:04.406 -> ROW SELECTED: 2
+12:48:05.213 -> ROW SELECTED: 1
+12:48:05.629 -> ROW SELECTED: 0
+12:48:06.357 -> ROW SELECTED: 1
+12:48:06.629 -> ROW SELECTED: 0
+12:48:07.389 -> ROW SELECTED: 1
+12:48:07.766 -> ROW SELECTED: 2
+12:48:08.021 -> ROW SELECTED: 3
+12:48:08.325 -> ROW SELECTED: 2
+12:48:08.573 -> ROW SELECTED: 1
+12:48:08.789 -> ROW SELECTED: 0
+12:48:09.246 -> ROW SELECTED: 1
+12:48:09.469 -> ROW SELECTED: 2
+12:48:09.669 -> ROW SELECTED: 3
+12:48:09.845 -> ROW SELECTED: 4
+12:48:10.109 -> ROW SELECTED: 5
+12:48:10.333 -> ROW SELECTED: 4
+12:48:10.542 -> ROW SELECTED: 3
+12:48:10.709 -> ROW SELECTED: 2
+12:48:10.869 -> ROW SELECTED: 1
+12:48:11.037 -> ROW SELECTED: 0
+12:48:11.525 -> ROW SELECTED: 1
+12:48:11.781 -> ROW SELECTED: 2
+12:48:11.941 -> ROW SELECTED: 3
+12:48:12.229 -> ROW SELECTED: 4
+12:48:12.437 -> ROW SELECTED: 5
+12:48:12.661 -> ROW SELECTED: 4
+12:48:12.941 -> ROW SELECTED: 5
+12:48:13.181 -> ROW SELECTED: 4
+12:48:13.525 -> ROW SELECTED: 5
+12:48:20.092 -> ROW SELECTED: 46
+12:48:20.195 -> ROW SELECTED: 46
+12:48:21.349 -> ROW SELECTED: 45
+12:48:21.669 -> ROW SELECTED: 46
+12:48:21.981 -> ROW SELECTED: 47
+12:48:22.237 -> ROW SELECTED: 46
+12:48:22.381 -> ROW SELECTED: 47
+12:48:22.886 -> ROW SELECTED: 48
+12:48:22.970 -> ROW SELECTED: 49
+12:48:23.057 -> ROW SELECTED: 50
+12:48:23.140 -> ROW SELECTED: 51
+12:48:23.224 -> ROW SELECTED: 52
+12:48:23.308 -> ROW SELECTED: 53
+12:48:23.396 -> ROW SELECTED: 54
+12:48:23.480 -> ROW SELECTED: 55
+12:48:23.563 -> ROW SELECTED: 56
+12:48:23.648 -> ROW SELECTED: 57
+12:48:23.733 -> ROW SELECTED: 58
+12:48:23.821 -> ROW SELECTED: 59
+12:48:23.905 -> ROW SELECTED: 60
+12:48:23.988 -> ROW SELECTED: 61
+12:48:24.071 -> ROW SELECTED: 62
+12:48:24.155 -> ROW SELECTED: 63
+12:48:24.238 -> ROW SELECTED: 64
+12:48:24.325 -> ROW SELECTED: 65
+12:48:24.412 -> ROW SELECTED: 66
+12:48:24.497 -> ROW SELECTED: 67
+12:48:24.585 -> ROW SELECTED: 68
+12:48:24.837 -> ROW SELECTED: 67
+12:48:25.029 -> ROW SELECTED: 68
+12:48:25.534 -> ROW SELECTED: 69
+12:48:25.617 -> ROW SELECTED: 70
+12:48:25.700 -> ROW SELECTED: 71
+12:48:25.784 -> ROW SELECTED: 72
+12:48:25.868 -> ROW SELECTED: 73
+12:48:25.951 -> ROW SELECTED: 74
+12:48:26.035 -> ROW SELECTED: 75
+12:48:26.123 -> ROW SELECTED: 76
+12:48:26.208 -> ROW SELECTED: 77
+12:48:26.293 -> ROW SELECTED: 78
+12:48:26.381 -> ROW SELECTED: 79
+12:48:26.464 -> ROW SELECTED: 80
+12:48:26.549 -> ROW SELECTED: 81
+12:48:26.635 -> ROW SELECTED: 82
+12:48:26.719 -> ROW SELECTED: 83
+12:48:26.805 -> ROW SELECTED: 84
+12:48:26.889 -> ROW SELECTED: 85
+12:48:26.976 -> ROW SELECTED: 86
+12:48:27.063 -> ROW SELECTED: 87
+12:48:27.146 -> ROW SELECTED: 88
+12:48:27.230 -> ROW SELECTED: 89
+12:48:27.314 -> ROW SELECTED: 90
+12:48:27.397 -> ROW SELECTED: 91
+12:48:27.480 -> ROW SELECTED: 92
+12:48:27.565 -> ROW SELECTED: 93
+12:48:27.652 -> ROW SELECTED: 94
+12:48:27.737 -> ROW SELECTED: 95
+12:48:27.820 -> ROW SELECTED: 96
+12:48:27.903 -> ROW SELECTED: 97
+12:48:27.989 -> ROW SELECTED: 98
+12:48:28.076 -> ROW SELECTED: 99
+12:48:28.163 -> ROW SELECTED: 100
+12:48:28.248 -> ROW SELECTED: 101
+12:48:28.335 -> ROW SELECTED: 102
+12:48:28.423 -> ROW SELECTED: 103
+12:48:28.509 -> ROW SELECTED: 104
+12:48:28.594 -> ROW SELECTED: 105
+12:48:28.677 -> ROW SELECTED: 106
+12:48:28.760 -> ROW SELECTED: 107
+12:48:28.848 -> ROW SELECTED: 108
+12:48:28.934 -> ROW SELECTED: 109
+12:48:29.017 -> ROW SELECTED: 110
+12:48:29.105 -> ROW SELECTED: 111
+12:48:29.192 -> ROW SELECTED: 112
+12:48:29.278 -> ROW SELECTED: 113
+12:48:29.365 -> ROW SELECTED: 114
+12:48:29.449 -> ROW SELECTED: 115
+12:48:29.532 -> ROW SELECTED: 116
+12:48:29.616 -> ROW SELECTED: 117
+12:48:29.704 -> ROW SELECTED: 118
+12:48:29.791 -> ROW SELECTED: 119
+12:48:29.877 -> ROW SELECTED: 120
+12:48:29.960 -> ROW SELECTED: 121
+12:48:30.047 -> ROW SELECTED: 122
+12:48:30.131 -> ROW SELECTED: 123
+12:48:30.219 -> ROW SELECTED: 124
+12:48:30.307 -> ROW SELECTED: 125
+12:48:30.390 -> ROW SELECTED: 126
+12:48:30.478 -> ROW SELECTED: 127
+12:48:30.565 -> ROW SELECTED: 128
+12:48:30.652 -> ROW SELECTED: 129
+12:48:30.739 -> ROW SELECTED: 130
+12:48:30.823 -> ROW SELECTED: 131
+12:48:30.910 -> ROW SELECTED: 132
+12:48:30.995 -> ROW SELECTED: 133
+12:48:31.079 -> ROW SELECTED: 134
+12:48:31.165 -> ROW SELECTED: 135
+12:48:31.253 -> ROW SELECTED: 136
+12:48:31.338 -> ROW SELECTED: 137
+12:48:31.421 -> ROW SELECTED: 138
+12:48:31.504 -> ROW SELECTED: 139
+12:48:31.589 -> ROW SELECTED: 140
+12:48:31.675 -> ROW SELECTED: 141
+12:48:31.763 -> ROW SELECTED: 142
+12:48:31.848 -> ROW SELECTED: 143
+12:48:31.936 -> ROW SELECTED: 144
+12:48:32.019 -> ROW SELECTED: 145
+12:48:32.107 -> ROW SELECTED: 146
+12:48:32.193 -> ROW SELECTED: 147
+12:48:32.278 -> ROW SELECTED: 148
+12:48:32.364 -> ROW SELECTED: 149
+12:48:44.820 -> Abre ver precios
+12:57:36.270 -> Abre ver catálogo
+12:57:50.462 -> nuevaDevolucion con posicion captura: 1

@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JFrame" name="jFrame1">
+      <Properties>
+        <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[606, 255]"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jPanel4" alignment="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jPanel4" alignment="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel4">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="fa" green="fa" red="fa" type="rgb"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jButton7" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jButton6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel7" min="-2" pref="148" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jTextField1" max="32767" attributes="0"/>
+                          <Component id="jPasswordField1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jPasswordField2" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jCheckBox1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel9" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jTextField1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jPasswordField1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jPasswordField2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jCheckBox1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jButton6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButton7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel7">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Grande" size="18" style="3"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/devox/GUI/images/group.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nuevo Usuario"/>
+                <Property name="verticalAlignment" type="int" value="3"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+                <Property name="iconTextGap" type="int" value="24"/>
+                <Property name="verticalTextPosition" type="int" value="3"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextField1">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel8">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Usuario"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel9">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Contrase&#xf1;a"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JPasswordField" name="jPasswordField1">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel10">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Confirmar"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JPasswordField" name="jPasswordField2">
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton6">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Aceptar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton6ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton7">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cancelar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton7ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="jCheckBox1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Es un usuario con todos los permisos"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JFrame" name="jFrame2">
+      <Properties>
+        <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[435, 255]"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jPanel5" alignment="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jPanel5" alignment="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel5">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="fa" green="fa" red="fa" type="rgb"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jButton9" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jButton8" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel11" min="-2" pref="148" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jTextField2" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jPasswordField3" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jPasswordField4" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jCheckBox2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel12" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel13" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel14" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel11" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jTextField2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jPasswordField3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jPasswordField4" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jCheckBox2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jButton8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButton9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel11">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Grande" size="18" style="3"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/devox/GUI/images/group.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Editar Usuario"/>
+                <Property name="verticalAlignment" type="int" value="3"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+                <Property name="iconTextGap" type="int" value="24"/>
+                <Property name="verticalTextPosition" type="int" value="3"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextField2">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel12">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Usuario"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel13">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Contrase&#xf1;a"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JPasswordField" name="jPasswordField3">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel14">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Confirmar"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JPasswordField" name="jPasswordField4">
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton8">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Aceptar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton8ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton9">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cancelar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton9ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="jCheckBox2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Es un usuario con todos los permisos"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[606, 490]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jTabbedPane1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jTabbedPane1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="fa" green="fa" red="fa" type="rgb"/>
+        </Property>
+        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[600, 534]"/>
+        </Property>
+        <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[600, 534]"/>
+        </Property>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="fa" green="fa" red="fa" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Codificaci&#xf3;n">
+                <Property name="tabTitle" type="java.lang.String" value="Codificaci&#xf3;n"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="fieldRef" max="32767" attributes="0"/>
+                          <Component id="fieldDex" max="32767" attributes="0"/>
+                          <Component id="fieldApto" max="32767" attributes="0"/>
+                          <Component id="fieldDictam" max="32767" attributes="0"/>
+                          <Component id="fieldEntreg" max="32767" attributes="0"/>
+                          <Component id="fieldTarim" pref="278" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="244" max="32767" attributes="0"/>
+                      <Component id="botonAceptarCodificacion" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="243" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="fieldRef" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="fieldDex" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="fieldApto" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="fieldDictam" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="fieldEntreg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="fieldTarim" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="155" max="32767" attributes="0"/>
+                      <Component id="botonAceptarCodificacion" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Ref:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cod. en reportes para Destrucci&#xf3;n"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cod. en reportes para Aptos"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cod. en reportes para Dictamen"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel5">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cod. en reportes para Entregados"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel6">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cod. en reportes de Tarimas"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="fieldRef">
+            </Component>
+            <Component class="javax.swing.JTextField" name="fieldDex">
+            </Component>
+            <Component class="javax.swing.JTextField" name="fieldApto">
+            </Component>
+            <Component class="javax.swing.JTextField" name="fieldDictam">
+            </Component>
+            <Component class="javax.swing.JTextField" name="fieldEntreg">
+            </Component>
+            <Component class="javax.swing.JTextField" name="fieldTarim">
+            </Component>
+            <Component class="javax.swing.JButton" name="botonAceptarCodificacion">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Aceptar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonAceptarCodificacionActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="fa" green="fa" red="fa" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Usuarios">
+                <Property name="tabTitle" type="java.lang.String" value="Usuarios"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="botonAceptarUsuarios" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jScrollPane2" max="32767" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="jButton5" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="117" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jScrollPane2" min="-2" pref="100" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButton5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="254" max="32767" attributes="0"/>
+                      <Component id="botonAceptarUsuarios" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="botonAceptarUsuarios">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Aceptar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonAceptarUsuariosActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nuevo Usuario"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Eliminar usuario"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton5">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Editar Usuario"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="fa" green="fa" red="fa" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Respaldos">
+                <Property name="tabTitle" type="java.lang.String" value="Respaldos"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="jButton3" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jButton4" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="botonAceptarRespaldos" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="290" max="32767" attributes="0"/>
+                      <Component id="botonAceptarRespaldos" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="botonAceptarRespaldos">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Aceptar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonAceptarRespaldosActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Hacer respaldo"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Restaurar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel6">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="fa" green="fa" red="fa" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="PDF">
+                <Property name="tabTitle" type="java.lang.String" value="PDF"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="textFieldRoute" min="-2" pref="342" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButton10" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="13" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="textFieldRoute" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButton10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="438" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel15">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Ruta por defecto"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="textFieldRoute">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton10">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cambiar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton10ActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel7">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="fa" green="fa" red="fa" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Acerca de Devox">
+                <Property name="tabTitle" type="java.lang.String" value="Acerca de Devox"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace pref="79" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel16" min="-2" pref="405" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="150" max="-2" attributes="0"/>
+                                      <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace pref="89" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" pref="253" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel16">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Grande" size="80" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="a0" green="5a" red="35" type="rgb"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/devox/GUI/images/devox.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Devox"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel17">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Grande" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&lt;html&gt;v 1.3.161014.18&lt;/html&gt;"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea1">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="Derechos de autor &#xa9; 2016 Devox&#xa;Creador por David Azaraf Vargas Baza.&#xa;&#xa;LICENCIA EXCLUSIVA PARA UNA (1) COMPUTADORA DE ABBOTT LABORATORIES DE M&#xc9;XICO S.A. DE C.V.&#xa;&#xa;LEA CUIDADOSAMENTE LOS T&#xc9;RMINOS Y CONDICIONES DEL PRESENTE DOCUMENTO, ANTES DE LA UTILIZACI&#xd3;N DE ESTE PRODUCTO. ESTE CONTIENE SOFTWARE, CUYO USO ES OBJETO DE UNA LICENCIA OTORGADA POR DAVID AZARAF VARGAS BAZA (DE AQU&#xcd; EN ADELANTE DENOMINADO &#x201c;EL PROGRAMADOR&#x201d;) A FAVOR DE USTED, EL USUARIO FINAL ORIGINAL ABBOTT LABORATORIES DE M&#xc9;XICO S.A. DE C.V (DE AQU&#xcd; EN ADELANTE DENOMINADO &#x201c;EL CLIENTE&#x201d;), PARA SU USO EXCLUSIVO COMO SE INDICA. SI USTED NO ESTA DE ACUERDO CON LOS T&#xc9;RMINOS Y CONDICIONES DE ESTE CONTRATO, NO UTILICE EL SOFTWARE. EL USO DE CUALQUIER PARTE DEL SOFTWARE INDICA QUE USTED ACEPTA ESTOS T&#xc9;RMINOS.&#xa;&#x2028;CL&#xc1;USULA 1. OBJETO. Este acuerdo establece las condiciones de licenciamiento, instalaci&#xf3;n y uso del programa adquirido Devox (de aqu&#xed; en adelante denominado &#x201c;El Software&#x201d;), software de propiedad exclusiva de David Azaraf Vargas Baza. La licencia objeto del presente acuerdo es concedida exclusivamente para el uso del Cliente.&#xa;CL&#xc1;USULA 2. LICENCIA. El Programador le otorga a usted una licencia limitada, exclusiva, para el uso del software que se acompa&#xf1;a, sujeta a los t&#xe9;rminos y condiciones recogidos en el presente. No se le permite el uso del software en ninguna otra manera que no est&#xe9; expresamente autorizada por esta Licencia.&#xa;El Software es objeto de licencia para su uso en cualquier ordenador personal que disponga el sistema operativo correspondiente para el software adquirido.&#xa;Usted podr&#xe1; reproducir y usar solo una (1) copia del Software.&#xa;CL&#xc1;USULA 3. DERECHOS DE AUTOR&#xcd;A. El Software es propiedad exclusiva de David Azaraf Vargas Baza, creador y programador del mismo, y est&#xe1; protegido por la legislaci&#xf3;n sobre derechos de autor, tratados internacionales y cualquier legislaci&#xf3;n aplicable. El pago de la licencia otorgada bajo el presente contrato, no constituye la compra del Software ni de los t&#xed;tulos, ni derechos de autor correspondientes. La imagen de &#x201c;Abbott&#x201d; y &#x201c;DHL&#x201d; usadas en el Software han sido utilizadas &#xfa;nicamente con el objetivo de ilustrar la interfaz gr&#xe1;fica con &#xe1;nimo de dar identidad al Cliente y usuarios finales del Software.&#xa;CL&#xc1;USULA 4. INSTALACI&#xd3;N. El Software, objeto del presente acuerdo ser&#xe1; instalado en el equipo de el Cliente. Junto al Software se entrega un manual de usuario final.&#xa;CL&#xc1;USULA 5. DISPOSICIONES GENERALES. El Cliente no deber&#xe1; usar o alterar el Software con ninguna finalidad, ni podr&#xe1; utilizar el Software para cualquier otro prop&#xf3;sito que el se&#xf1;alado con anterioridad, sin el consentimiento previo por escrito de el Programador, el cual podr&#xe1; ser denegado por cualquier raz&#xf3;n. La modificaci&#xf3;n, manipulaci&#xf3;n o alteraci&#xf3;n en cuanto a ingenier&#xed;a o recopilaci&#xf3;n o desmontaje de El Software queda expresamente prohibido.&#xa;El uso del Software por parte de terceros o para el beneficio de queda expresamente prohibido. El Programador tiene el derecho de invalidar la Licencia del Software en cualquier momento, notific&#xe1;ndole al Cliente con s&#xf3;lo un d&#xed;a de anticipaci&#xf3;n; el Cliente no tendr&#xe1; derecho a reclamar o solicitar compensaci&#xf3;n. Igualmente, el Cliente no podr&#xe1; (a) arrendar o transferir mediante ning&#xfa;n titulo, o incluso por causa sin &#xe1;nimo de lucro, el uso del Software a terceros; (b) tomar aquellos pasos para, mediante la ingenier&#xed;a inversa o cualquier otro m&#xe9;todo, descompilar, desensamblar, analizar o convertir el Software; (c) transferir el Software a otro Equipo, suyo o no. El Cliente se compromete a cumplir estrictamente las instrucciones de El Programador para el uso adecuado del Software.&#xa;CL&#xc1;USULA 6. CONFIDENCIALIDAD. El Software, como tambi&#xe9;n cualquier documentaci&#xf3;n e informaci&#xf3;n relacionada con &#xe9;ste, son propiedad exclusiva de El Programador. El Cliente conviene en mantener en estricta confidencialidad toda informaci&#xf3;n confidencial que surja del Software, ya que toda la mencionada informaci&#xf3;n es confidencial.&#xa;CL&#xc1;USULA 7. PROPIEDAD. El Software es, y seguir&#xe1; siendo en todo momento, propiedad de el Programador. El c&#xf3;digo, dise&#xf1;o de base de datos, algoritmos y l&#xf3;gica de negocio, imagotipo de Devox, interfaz de usuario gr&#xe1;fica y procesos en general del Software son propiedad del Programador. La informaci&#xf3;n usada y tratada por el Software como datos alojados en la propia base de datos son propiedad del Cliente. El Cliente no tendr&#xe1; ning&#xfa;n derecho, titulo o inter&#xe9;s en el Software, y no permitir&#xe1; que ninguna obligaci&#xf3;n o gravamen exista sobre &#xe9;ste, ni permitir&#xe1; el uso del Software por terceros, ni realizar&#xe1; ning&#xfa;n acto que pueda modificar los derechos de autor del Software. Por lo tanto, el Cliente no puede vender, arrendar, prestar, revelar, transmitir o transferir ning&#xfa;n titulo, ni copiar el Software para terceros.&#xa;CL&#xc1;USULA 8. MODIFICACI&#xd3;N y ACTUALIZACI&#xd3;N DE VERSIONES. El Programador podr&#xe1; modificar o reinstalar el Software bajo los t&#xe9;rminos y condiciones incluidos en el presente, reemplaz&#xe1;ndolo por versiones actualizadas. Habr&#xe1;n tres tipos de actualizaciones (a) actualizaci&#xf3;n de base de datos, la cu&#xe1;l modificar&#xe1; el proceso a nivel base de datos. Estas actualizaciones se har&#xe1;n sobre el manejador de base de datos que utilice el Software; (b) actualizaci&#xf3;n de l&#xf3;gica de negocios, que modificar&#xe1; alguna funci&#xf3;n o proceso que no implica la alteraci&#xf3;n del dise&#xf1;o, estructura, funcionamiento o finalidad del software y (c) actualizaci&#xf3;n completa, que altera el dise&#xf1;o, algoritmo, l&#xf3;gica, imagen y/o interacci&#xf3;n del Cliente con el Software. Todas las actualizaciones que hagan son a fin de corregir y mejorar el Software para adaptarse a las necesidades del Cliente y cada actualizaci&#xf3;n se har&#xe1; bajo un costo determinado por el Programador.&#xa;CL&#xc1;USULA 9. DE ASESOR&#xcd;A T&#xc9;CNICA. El Cliente podr&#xe1; comunicarse v&#xed;a correo electr&#xf3;nico con el Programador en caso de requerir informaci&#xf3;n acerca del Software, teniendo como plazo m&#xe1;ximo para contestar 3 d&#xed;as h&#xe1;biles a partir de la fecha y hora de recibido. Tambi&#xe9;n se podr&#xe1; comunicar v&#xed;a telef&#xf3;nica con el Programador agendando previamente la llamada. En caso de requerir soporte o apoyo t&#xe9;cnico para solucionar problemas con el software, tendr&#xe1; un costo a partir del 1 de enero del a&#xf1;o 2017. El costo lo definir&#xe1; el Programador. Si el Cliente requiere de capacitaci&#xf3;n t&#xe9;cnica a usuarios de El Software o visitas f&#xed;sicas al &#xe1;rea de operaci&#xf3;n donde se encuentra la computadora con la instalaci&#xf3;n, se requerir&#xe1; cita previa y habr&#xe1; un costo que definir&#xe1; el Programador. &#xa;CL&#xc1;USULA 10. RESPONSABILIDAD DEL CLIENTE; RIESGO DE P&#xc9;RDIDA. El cliente deber&#xe1; asumir todo riesgo de p&#xe9;rdida o da&#xf1;o del Software. Asimismo el Programador, no se responsabiliza de ning&#xfa;n da&#xf1;o o p&#xe9;rdida en su ordenador personal derivada del uso de este Software y de los manuales de instrucciones.&#xa;CL&#xc1;USULA 11. ROBO, PERDIDA, O CAMBIO DE ORDENADOR PERSONAL.&#x2028;En caso de robo, p&#xe9;rdida o cambio de su ordenador personal, el Programador no se responsabiliza.&#xa;CL&#xc1;USULA 12. PLAZO Y TERMINACI&#xd3;N. Este contrato ser&#xe1; efectivo hasta que sea terminado.&#x2028;Usted podr&#xe1; terminarlo en cualquier momento, mediante la destrucci&#xf3;n en cualquier forma del software.&#x2028;Tambi&#xe9;n se terminara inmediatamente si usted incumple cualquier termino o condici&#xf3;n del presente sin que esto signifique una renuncia de el Programador a su derecho de realizar acciones judiciales que se deriven del mismo.&#xa;CL&#xc1;USULA 13. FACTURACI&#xd3;N Y FORMAS DE PAGO. El Programador facturar&#xe1; al cliente por los servicios y/o productos con las tarifas vigentes en cada momento, que ser&#xe1;n incrementadas con el IVA correspondiente. El pago se realizar&#xe1; mediante ingreso o transferencia bancaria, siempre por anticipado, no realiz&#xe1;ndose el suministro o prestaci&#xf3;n del servicio correspondiente hasta la confirmaci&#xf3;n efectiva del mismo.&#xa;CL&#xc1;USULA 14. CONTRATO INTEGRAL. Este acuerdo de licencia constituye el contrato completo entre el Cliente y el Programador, reemplaza cualquier acuerdo anterior o actual entre las partes. Este acuerdo no puede ser enmendado, modificado ni ratificado, excepto mediante documento por escrito firmado por ambas partes.&#xa;--------------------------------------------------------------------&#xa;******************************** LICENCIAS DE TERCEROS ********************************&#xa;--------------------------------------------------------------------&#xa;&#xa;======================================================&#xa;                                                       Apache License&#xa;                                              Version 2.0, January 2004&#xa;                                          http://www.apache.org/licenses/&#xa; &#xa;   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION&#xa;&#xa;   1. Definitions.&#xa;&#xa;      &quot;License&quot; shall mean the terms and conditions for use, reproduction,&#xa;      and distribution as defined by Sections 1 through 9 of this document.&#xa;&#xa;      &quot;Licensor&quot; shall mean the copyright owner or entity authorized by&#xa;      the copyright owner that is granting the License.&#xa;&#xa;      &quot;Legal Entity&quot; shall mean the union of the acting entity and all&#xa;      other entities that control, are controlled by, or are under common&#xa;      control with that entity. For the purposes of this definition,&#xa;      &quot;control&quot; means (i) the power, direct or indirect, to cause the&#xa;      direction or management of such entity, whether by contract or&#xa;      otherwise, or (ii) ownership of fifty percent (50%) or more of the&#xa;      outstanding shares, or (iii) beneficial ownership of such entity.&#xa;&#xa;      &quot;You&quot; (or &quot;Your&quot;) shall mean an individual or Legal Entity&#xa;      exercising permissions granted by this License.&#xa;&#xa;      &quot;Source&quot; form shall mean the preferred form for making modifications,&#xa;      including but not limited to software source code, documentation&#xa;      source, and configuration files.&#xa;&#xa;      &quot;Object&quot; form shall mean any form resulting from mechanical&#xa;      transformation or translation of a Source form, including but&#xa;      not limited to compiled object code, generated documentation,&#xa;      and conversions to other media types.&#xa;&#xa;      &quot;Work&quot; shall mean the work of authorship, whether in Source or&#xa;      Object form, made available under the License, as indicated by a&#xa;      copyright notice that is included in or attached to the work&#xa;      (an example is provided in the Appendix below).&#xa;&#xa;      &quot;Derivative Works&quot; shall mean any work, whether in Source or Object&#xa;      form, that is based on (or derived from) the Work and for which the&#xa;      editorial revisions, annotations, elaborations, or other modifications&#xa;      represent, as a whole, an original work of authorship. For the purposes&#xa;      of this License, Derivative Works shall not include works that remain&#xa;      separable from, or merely link (or bind by name) to the interfaces of,&#xa;      the Work and Derivative Works thereof.&#xa;&#xa;      &quot;Contribution&quot; shall mean any work of authorship, including&#xa;      the original version of the Work and any modifications or additions&#xa;      to that Work or Derivative Works thereof, that is intentionally&#xa;      submitted to Licensor for inclusion in the Work by the copyright owner&#xa;      or by an individual or Legal Entity authorized to submit on behalf of&#xa;      the copyright owner. For the purposes of this definition, &quot;submitted&quot;&#xa;      means any form of electronic, verbal, or written communication sent&#xa;      to the Licensor or its representatives, including but not limited to&#xa;      communication on electronic mailing lists, source code control systems,&#xa;      and issue tracking systems that are managed by, or on behalf of, the&#xa;      Licensor for the purpose of discussing and improving the Work, but&#xa;      excluding communication that is conspicuously marked or otherwise&#xa;      designated in writing by the copyright owner as &quot;Not a Contribution.&quot;&#xa;&#xa;      &quot;Contributor&quot; shall mean Licensor and any individual or Legal Entity&#xa;      on behalf of whom a Contribution has been received by Licensor and&#xa;      subsequently incorporated within the Work.&#xa;&#xa;   2. Grant of Copyright License. Subject to the terms and conditions of&#xa;      this License, each Contributor hereby grants to You a perpetual,&#xa;      worldwide, non-exclusive, no-charge, royalty-free, irrevocable&#xa;      copyright license to reproduce, prepare Derivative Works of,&#xa;      publicly display, publicly perform, sublicense, and distribute the&#xa;      Work and such Derivative Works in Source or Object form.&#xa;&#xa;   3. Grant of Patent License. Subject to the terms and conditions of&#xa;      this License, each Contributor hereby grants to You a perpetual,&#xa;      worldwide, non-exclusive, no-charge, royalty-free, irrevocable&#xa;      (except as stated in this section) patent license to make, have made,&#xa;      use, offer to sell, sell, import, and otherwise transfer the Work,&#xa;      where such license applies only to those patent claims licensable&#xa;      by such Contributor that are necessarily infringed by their&#xa;      Contribution(s) alone or by combination of their Contribution(s)&#xa;      with the Work to which such Contribution(s) was submitted. If You&#xa;      institute patent litigation against any entity (including a&#xa;      cross-claim or counterclaim in a lawsuit) alleging that the Work&#xa;      or a Contribution incorporated within the Work constitutes direct&#xa;      or contributory patent infringement, then any patent licenses&#xa;      granted to You under this License for that Work shall terminate&#xa;      as of the date such litigation is filed.&#xa;&#xa;   4. Redistribution. You may reproduce and distribute copies of the&#xa;      Work or Derivative Works thereof in any medium, with or without&#xa;      modifications, and in Source or Object form, provided that You&#xa;      meet the following conditions:&#xa;&#xa;      (a) You must give any other recipients of the Work or&#xa;          Derivative Works a copy of this License; and&#xa;&#xa;      (b) You must cause any modified files to carry prominent notices&#xa;          stating that You changed the files; and&#xa;&#xa;      (c) You must retain, in the Source form of any Derivative Works&#xa;          that You distribute, all copyright, patent, trademark, and&#xa;          attribution notices from the Source form of the Work,&#xa;          excluding those notices that do not pertain to any part of&#xa;          the Derivative Works; and&#xa;&#xa;      (d) If the Work includes a &quot;NOTICE&quot; text file as part of its&#xa;          distribution, then any Derivative Works that You distribute must&#xa;          include a readable copy of the attribution notices contained&#xa;          within such NOTICE file, excluding those notices that do not&#xa;          pertain to any part of the Derivative Works, in at least one&#xa;          of the following places: within a NOTICE text file distributed&#xa;          as part of the Derivative Works; within the Source form or&#xa;          documentation, if provided along with the Derivative Works; or,&#xa;          within a display generated by the Derivative Works, if and&#xa;          wherever such third-party notices normally appear. The contents&#xa;          of the NOTICE file are for informational purposes only and&#xa;          do not modify the License. You may add Your own attribution&#xa;          notices within Derivative Works that You distribute, alongside&#xa;          or as an addendum to the NOTICE text from the Work, provided&#xa;          that such additional attribution notices cannot be construed&#xa;          as modifying the License.&#xa;&#xa;      You may add Your own copyright statement to Your modifications and&#xa;      may provide additional or different license terms and conditions&#xa;      for use, reproduction, or distribution of Your modifications, or&#xa;      for any such Derivative Works as a whole, provided Your use,&#xa;      reproduction, and distribution of the Work otherwise complies with&#xa;      the conditions stated in this License.&#xa;&#xa;   5. Submission of Contributions. Unless You explicitly state otherwise,&#xa;      any Contribution intentionally submitted for inclusion in the Work&#xa;      by You to the Licensor shall be under the terms and conditions of&#xa;      this License, without any additional terms or conditions.&#xa;      Notwithstanding the above, nothing herein shall supersede or modify&#xa;      the terms of any separate license agreement you may have executed&#xa;      with Licensor regarding such Contributions.&#xa;&#xa;   6. Trademarks. This License does not grant permission to use the trade&#xa;      names, trademarks, service marks, or product names of the Licensor,&#xa;      except as required for reasonable and customary use in describing the&#xa;      origin of the Work and reproducing the content of the NOTICE file.&#xa;&#xa;   7. Disclaimer of Warranty. Unless required by applicable law or&#xa;      agreed to in writing, Licensor provides the Work (and each&#xa;      Contributor provides its Contributions) on an &quot;AS IS&quot; BASIS,&#xa;      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or&#xa;      implied, including, without limitation, any warranties or conditions&#xa;      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A&#xa;      PARTICULAR PURPOSE. You are solely responsible for determining the&#xa;      appropriateness of using or redistributing the Work and assume any&#xa;      risks associated with Your exercise of permissions under this License.&#xa;&#xa;   8. Limitation of Liability. In no event and under no legal theory,&#xa;      whether in tort (including negligence), contract, or otherwise,&#xa;      unless required by applicable law (such as deliberate and grossly&#xa;      negligent acts) or agreed to in writing, shall any Contributor be&#xa;      liable to You for damages, including any direct, indirect, special,&#xa;      incidental, or consequential damages of any character arising as a&#xa;      result of this License or out of the use or inability to use the&#xa;      Work (including but not limited to damages for loss of goodwill,&#xa;      work stoppage, computer failure or malfunction, or any and all&#xa;      other commercial damages or losses), even if such Contributor&#xa;      has been advised of the possibility of such damages.&#xa;&#xa;   9. Accepting Warranty or Additional Liability. While redistributing&#xa;      the Work or Derivative Works thereof, You may choose to offer,&#xa;      and charge a fee for, acceptance of support, warranty, indemnity,&#xa;      or other liability obligations and/or rights consistent with this&#xa;      License. However, in accepting such obligations, You may act only&#xa;      on Your own behalf and on Your sole responsibility, not on behalf&#xa;      of any other Contributor, and only if You agree to indemnify,&#xa;      defend, and hold each Contributor harmless for any liability&#xa;      incurred by, or claims asserted against, such Contributor by reason&#xa;      of your accepting any such warranty or additional liability.&#xa;&#xa;   END OF TERMS AND CONDITIONS&#xa;&#xa;   APPENDIX: How to apply the Apache License to your work.&#xa;&#xa;      To apply the Apache License to your work, attach the following&#xa;      boilerplate notice, with the fields enclosed by brackets &quot;[]&quot;&#xa;      replaced with your own identifying information. (Don&apos;t include&#xa;      the brackets!)  The text should be enclosed in the appropriate&#xa;      comment syntax for the file format. We also recommend that a&#xa;      file or class name and description of purpose be included on the&#xa;      same &quot;printed page&quot; as the copyright notice for easier&#xa;      identification within third-party archives.&#xa;&#xa;   Copyright [yyyy] [name of copyright owner]&#xa;&#xa;   Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);&#xa;   you may not use this file except in compliance with the License.&#xa;   You may obtain a copy of the License at&#xa;&#xa;       http://www.apache.org/licenses/LICENSE-2.0&#xa;&#xa;   Unless required by applicable law or agreed to in writing, software&#xa;   distributed under the License is distributed on an &quot;AS IS&quot; BASIS,&#xa;   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.&#xa;   See the License for the specific language governing permissions and&#xa;   limitations under the License.&#xa;&#xa;======================================================&#xa;&#xa;JCalendar - v1.4 - 07/09/2011&#xa;&#xa;(C) 1999 - 2011 Kai Toedter&#xa;Released under GNU Lesser General Public License (see jcalendar-license.txt)&#xa;kai@toedter.com&#xa;www.toedter.com&#xa;&#xa;======================================================&#xa;&#xa;iText - itextpdf 5.5.4&#xa;This program is free software; you can redistribute it and/or modify&#xa;it under the terms of the GNU Affero General Public License version 3&#xa;as published by the Free Software Foundation with the addition of the&#xa;following permission added to Section 15 as permitted in Section 7(a):&#xa;FOR ANY PART OF THE COVERED WORK IN WHICH THE COPYRIGHT IS OWNED BY&#xa;ITEXT GROUP. ITEXT GROUP DISCLAIMS THE WARRANTY OF NON INFRINGEMENT&#xa;OF THIRD PARTY RIGHTS&#xa;&#xa;======================================================&#xa;&#xa;MySQL v5.7 by Oracle July 2011&#xa;Licensed software under the version 2 of GNU General Public License (the GPL)&#xa;&#xa;======================================================&#xa;"/>
+                    <Property name="wrapStyleWord" type="boolean" value="true"/>
+                    <Property name="caretPosition" type="int" value="0"/>
+                    <Property name="dragEnabled" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

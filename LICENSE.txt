@@ -1,0 +1,256 @@
+Derechos de autor © 2016 Devox
+Creador por David Azaraf Vargas Baza.
+
+LICENCIA EXCLUSIVA PARA UNA (1) COMPUTADORA DE ABBOTT LABORATORIES DE MÉXICO S.A. DE C.V.
+
+LEA CUIDADOSAMENTE LOS TÉRMINOS Y CONDICIONES DEL PRESENTE DOCUMENTO, ANTES DE LA UTILIZACIÓN DE ESTE PRODUCTO. ESTE CONTIENE SOFTWARE, CUYO USO ES OBJETO DE UNA LICENCIA OTORGADA POR DAVID AZARAF VARGAS BAZA (DE AQUÍ EN ADELANTE DENOMINADO “EL PROGRAMADOR”) A FAVOR DE USTED, EL USUARIO FINAL ORIGINAL ABBOTT LABORATORIES DE MÉXICO S.A. DE C.V (DE AQUÍ EN ADELANTE DENOMINADO “EL CLIENTE”), PARA SU USO EXCLUSIVO COMO SE INDICA. SI USTED NO ESTA DE ACUERDO CON LOS TÉRMINOS Y CONDICIONES DE ESTE CONTRATO, NO UTILICE EL SOFTWARE. EL USO DE CUALQUIER PARTE DEL SOFTWARE INDICA QUE USTED ACEPTA ESTOS TÉRMINOS.
+ CLÁUSULA 1. OBJETO. Este acuerdo establece las condiciones de licenciamiento, instalación y uso del programa adquirido Devox (de aquí en adelante denominado “El Software”), software de propiedad exclusiva de David Azaraf Vargas Baza. La licencia objeto del presente acuerdo es concedida exclusivamente para el uso del Cliente.
+CLÁUSULA 2. LICENCIA. El Programador le otorga a usted una licencia limitada, exclusiva, para el uso del software que se acompaña, sujeta a los términos y condiciones recogidos en el presente. No se le permite el uso del software en ninguna otra manera que no esté expresamente autorizada por esta Licencia.
+El Software es objeto de licencia para su uso en cualquier ordenador personal que disponga el sistema operativo correspondiente para el software adquirido.
+Usted podrá reproducir y usar solo una (1) copia del Software.
+CLÁUSULA 3. DERECHOS DE AUTORÍA. El Software es propiedad exclusiva de David Azaraf Vargas Baza, creador y programador del mismo, y está protegido por la legislación sobre derechos de autor, tratados internacionales y cualquier legislación aplicable. El pago de la licencia otorgada bajo el presente contrato, no constituye la compra del Software ni de los títulos, ni derechos de autor correspondientes. La imagen de “Abbott” y “DHL” usadas en el Software han sido utilizadas únicamente con el objetivo de ilustrar la interfaz gráfica con ánimo de dar identidad al Cliente y usuarios finales del Software.
+CLÁUSULA 4. INSTALACIÓN. El Software, objeto del presente acuerdo será instalado en el equipo de el Cliente. Junto al Software se entrega un manual de usuario final.
+CLÁUSULA 5. DISPOSICIONES GENERALES. El Cliente no deberá usar o alterar el Software con ninguna finalidad, ni podrá utilizar el Software para cualquier otro propósito que el señalado con anterioridad, sin el consentimiento previo por escrito de el Programador, el cual podrá ser denegado por cualquier razón. La modificación, manipulación o alteración en cuanto a ingeniería o recopilación o desmontaje de El Software queda expresamente prohibido.
+El uso del Software por parte de terceros o para el beneficio de queda expresamente prohibido. El Programador tiene el derecho de invalidar la Licencia del Software en cualquier momento, notificándole al Cliente con sólo un día de anticipación; el Cliente no tendrá derecho a reclamar o solicitar compensación. Igualmente, el Cliente no podrá (a) arrendar o transferir mediante ningún titulo, o incluso por causa sin ánimo de lucro, el uso del Software a terceros; (b) tomar aquellos pasos para, mediante la ingeniería inversa o cualquier otro método, descompilar, desensamblar, analizar o convertir el Software; (c) transferir el Software a otro Equipo, suyo o no. El Cliente se compromete a cumplir estrictamente las instrucciones de El Programador para el uso adecuado del Software.
+CLÁUSULA 6. CONFIDENCIALIDAD. El Software, como también cualquier documentación e información relacionada con éste, son propiedad exclusiva de El Programador. El Cliente conviene en mantener en estricta confidencialidad toda información confidencial que surja del Software, ya que toda la mencionada información es confidencial.
+CLÁUSULA 7. PROPIEDAD. El Software es, y seguirá siendo en todo momento, propiedad de el Programador. El código, diseño de base de datos, algoritmos y lógica de negocio, imagotipo de Devox, interfaz de usuario gráfica y procesos en general del Software son propiedad del Programador. La información usada y tratada por el Software como datos alojados en la propia base de datos son propiedad del Cliente. El Cliente no tendrá ningún derecho, titulo o interés en el Software, y no permitirá que ninguna obligación o gravamen exista sobre éste, ni permitirá el uso del Software por terceros, ni realizará ningún acto que pueda modificar los derechos de autor del Software. Por lo tanto, el Cliente no puede vender, arrendar, prestar, revelar, transmitir o transferir ningún titulo, ni copiar el Software para terceros.
+CLÁUSULA 8. MODIFICACIÓN y ACTUALIZACIÓN DE VERSIONES. El Programador podrá modificar o reinstalar el Software bajo los términos y condiciones incluidos en el presente, reemplazándolo por versiones actualizadas. Habrán tres tipos de actualizaciones (a) actualización de base de datos, la cuál modificará el proceso a nivel base de datos. Estas actualizaciones se harán sobre el manejador de base de datos que utilice el Software; (b) actualización de lógica de negocios, que modificará alguna función o proceso que no implica la alteración del diseño, estructura, funcionamiento o finalidad del software y (c) actualización completa, que altera el diseño, algoritmo, lógica, imagen y/o interacción del Cliente con el Software. Todas las actualizaciones que hagan son a fin de corregir y mejorar el Software para adaptarse a las necesidades del Cliente y cada actualización se hará bajo un costo determinado por el Programador.
+CLÁUSULA 9. DE ASESORÍA TÉCNICA. El Cliente podrá comunicarse vía correo electrónico con el Programador en caso de requerir información acerca del Software, teniendo como plazo máximo para contestar 3 días hábiles a partir de la fecha y hora de recibido. También se podrá comunicar vía telefónica con el Programador agendando previamente la llamada. En caso de requerir soporte o apoyo técnico para solucionar problemas con el software, tendrá un costo a partir del 1 de enero del año 2017. El costo lo definirá el Programador. Si el Cliente requiere de capacitación técnica a usuarios de El Software o visitas físicas al área de operación donde se encuentra la computadora con la instalación, se requerirá cita previa y habrá un costo que definirá el Programador. 
+CLÁUSULA 10. RESPONSABILIDAD DEL CLIENTE; RIESGO DE PÉRDIDA. El cliente deberá asumir todo riesgo de pérdida o daño del Software. Asimismo el Programador, no se responsabiliza de ningún daño o pérdida en su ordenador personal derivada del uso de este Software y de los manuales de instrucciones.
+CLÁUSULA 11. ROBO, PERDIDA, O CAMBIO DE ORDENADOR PERSONAL. En caso de robo, pérdida o cambio de su ordenador personal, el Programador no se responsabiliza.
+CLÁUSULA 12. PLAZO Y TERMINACIÓN. Este contrato será efectivo hasta que sea terminado. Usted podrá terminarlo en cualquier momento, mediante la destrucción en cualquier forma del software. También se terminara inmediatamente si usted incumple cualquier termino o condición del presente sin que esto signifique una renuncia de el Programador a su derecho de realizar acciones judiciales que se deriven del mismo.
+CLÁUSULA 13. FACTURACIÓN Y FORMAS DE PAGO. El Programador facturará al cliente por los servicios y/o productos con las tarifas vigentes en cada momento, que serán incrementadas con el IVA correspondiente. El pago se realizará mediante ingreso o transferencia bancaria, siempre por anticipado, no realizándose el suministro o prestación del servicio correspondiente hasta la confirmación efectiva del mismo.
+CLÁUSULA 14. CONTRATO INTEGRAL. Este acuerdo de licencia constituye el contrato completo entre el Cliente y el Programador, reemplaza cualquier acuerdo anterior o actual entre las partes. Este acuerdo no puede ser enmendado, modificado ni ratificado, excepto mediante documento por escrito firmado por ambas partes.
+--------------------------------------------------------------------
+******************************** LICENCIAS DE TERCEROS ********************************
+--------------------------------------------------------------------
+
+======================================================
+                                                       Apache License
+                                              Version 2.0, January 2004
+                                          http://www.apache.org/licenses/
+ 
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "[]"
+      replaced with your own identifying information. (Don't include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
+
+   Copyright [yyyy] [name of copyright owner]
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+======================================================
+
+JCalendar - v1.4 - 07/09/2011
+
+(C) 1999 - 2011 Kai Toedter
+Released under GNU Lesser General Public License (see jcalendar-license.txt)
+kai@toedter.com
+www.toedter.com
+
+======================================================
+
+iText - itextpdf 5.5.4
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License version 3
+as published by the Free Software Foundation with the addition of the
+following permission added to Section 15 as permitted in Section 7(a):
+FOR ANY PART OF THE COVERED WORK IN WHICH THE COPYRIGHT IS OWNED BY
+ITEXT GROUP. ITEXT GROUP DISCLAIMS THE WARRANTY OF NON INFRINGEMENT
+OF THIRD PARTY RIGHTS
+
+======================================================
+
+MySQL v5.7 by Oracle July 2011
+Licensed software under the version 2 of GNU General Public License (the GPL)
+
+======================================================

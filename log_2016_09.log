@@ -1,0 +1,335 @@
+*****************02/09/2016 13:28:31.848*****************
+13:28:31.849 -> Devox v 1.3.160830.16
+13:28:39.894 -> Nuevo intento de acceso con usuario: admin
+13:28:40.645 -> Ingresó como usuario con permisos
+13:28:40.749 -> El usario cerró el programa
+
+13:28:40.883 -> Se abrió una nueva ventana Home
+13:28:40.890 -> Actions created
+13:28:48.467 -> Abre ver catálogo
+13:28:53.156 -> Quiere agregar un dato nuevo a la tabla Clientes
+*****************05/09/2016 10:39:54.650*****************
+10:39:54.651 -> Devox v 1.3.160830.16
+10:40:01.474 -> Nuevo intento de acceso con usuario: admin
+10:40:02.237 -> Ingresó como usuario con permisos
+10:40:02.408 -> El usario cerró el programa
+
+10:40:02.676 -> Se abrió una nueva ventana Home
+10:40:02.804 -> Actions created
+10:40:27.312 -> Abre ver devoluciones
+10:40:54.582 -> Guardado en PDF! pdf.crear(new File("/Reportes/Destruccion/Folio_000856.pdf"));
+*****************05/09/2016 12:41:35.046*****************
+12:41:35.090 -> Devox v 1.3.160830.16
+12:41:40.616 -> Nuevo intento de acceso con usuario: admin
+12:41:41.292 -> Ingresó como usuario con permisos
+12:41:41.403 -> El usario cerró el programa
+
+12:41:41.663 -> Se abrió una nueva ventana Home
+12:41:41.739 -> Actions created
+12:41:53.477 -> Abre ver tarimas
+12:41:53.994 -> Esta tarima aún no está cerrada
+12:42:27.981 -> Abre ver devoluciones
+*****************07/09/2016 22:23:49.793*****************
+22:23:49.824 -> Devox v 1.3.160830.16
+*****************07/09/2016 22:24:14.217*****************
+22:24:14.223 -> Devox v 1.3.160830.16
+22:24:20.940 -> Nuevo intento de acceso con usuario: admin
+*****************07/09/2016 22:24:58.687*****************
+22:24:58.688 -> Devox v 1.3.160830.16
+22:25:03.490 -> Nuevo intento de acceso con usuario: admin
+22:25:04.616 -> Ingresó como usuario con permisos
+22:25:04.743 -> El usario cerró el programa
+
+22:25:04.892 -> Se abrió una nueva ventana Home
+22:25:04.901 -> Actions created
+22:25:47.371 -> Restaurar
+22:25:47.371 -> Path: /Users/azaraf/Proyectos/Devox/RespaldosSQL/Respaldo_2016_09_07.sql
+22:25:47.428 -> java.io.IOException: Cannot run program "mysql": error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:620)
+	at java.lang.Runtime.exec(Runtime.java:450)
+	at java.lang.Runtime.exec(Runtime.java:347)
+	at org.inspira.devox.services.BackUp.restaurarBackUp(BackUp.java:79)
+	at com.devox.GUI.panels.SettingsPanel.restaurarRespaldo(SettingsPanel.java:916)
+	at com.devox.GUI.panels.SettingsPanel$RestaurandoRespaldo.run(SettingsPanel.java:938)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:248)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 7 more
+
+22:25:47.429 -> java.io.IOException: Cannot run program "mysql": error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:620)
+	at java.lang.Runtime.exec(Runtime.java:450)
+	at java.lang.Runtime.exec(Runtime.java:347)
+	at org.inspira.devox.services.BackUp.restaurarBackUp(BackUp.java:79)
+	at com.devox.GUI.panels.SettingsPanel.restaurarRespaldo(SettingsPanel.java:916)
+	at com.devox.GUI.panels.SettingsPanel$RestaurandoRespaldo.run(SettingsPanel.java:938)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:248)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 7 more
+
+22:25:59.045 -> Abre ver estados
+*****************07/09/2016 22:31:34.372*****************
+22:31:34.405 -> Devox v 1.3.160830.16
+22:32:02.039 -> Nuevo intento de acceso con usuario: admin
+22:32:04.634 -> Ingresó como usuario con permisos
+22:32:04.924 -> El usario cerró el programa
+
+22:32:05.906 -> Se abrió una nueva ventana Home
+22:32:06.331 -> Actions created
+22:32:10.972 -> Abre ver estados
+*****************07/09/2016 22:33:17.958*****************
+22:33:17.960 -> Devox v 1.3.160830.16
+22:33:32.241 -> Nuevo intento de acceso con usuario: admin
+22:33:33.311 -> Ingresó como usuario con permisos
+22:33:33.508 -> El usario cerró el programa
+
+22:33:34.645 -> Se abrió una nueva ventana Home
+22:33:35.216 -> Actions created
+22:42:54.327 -> Abre ver estados
+*****************07/09/2016 22:44:24.298*****************
+22:44:24.300 -> Devox v 1.3.160830.16
+22:44:32.388 -> Nuevo intento de acceso con usuario: admin
+22:44:33.543 -> Ingresó como usuario con permisos
+22:44:33.734 -> El usario cerró el programa
+
+22:44:34.614 -> Se abrió una nueva ventana Home
+22:44:34.693 -> Actions created
+22:45:44.327 -> Abre ver estados
+*****************07/09/2016 22:47:19.748*****************
+22:47:19.749 -> Devox v 1.3.160830.16
+22:47:26.812 -> Nuevo intento de acceso con usuario: admin
+22:47:27.469 -> Ingresó como usuario con permisos
+22:47:27.583 -> El usario cerró el programa
+
+22:47:27.914 -> Se abrió una nueva ventana Home
+22:47:28.008 -> Actions created
+22:47:30.320 -> Abre ver estados
+*****************07/09/2016 22:48:19.223*****************
+22:48:19.225 -> Devox v 1.3.160830.16
+22:48:28.473 -> Nuevo intento de acceso con usuario: admin
+22:48:28.974 -> Ingresó como usuario con permisos
+22:48:29.043 -> El usario cerró el programa
+
+22:48:29.224 -> Se abrió una nueva ventana Home
+22:48:29.234 -> Actions created
+22:48:31.779 -> Abre ver estados
+*****************07/09/2016 22:49:21.327*****************
+22:49:21.328 -> Devox v 1.3.160830.16
+22:49:26.681 -> Nuevo intento de acceso con usuario: admin
+22:49:27.292 -> Ingresó como usuario con permisos
+22:49:27.387 -> El usario cerró el programa
+
+22:49:27.585 -> Se abrió una nueva ventana Home
+22:49:27.594 -> Actions created
+22:49:32.534 -> Abre ver devoluciones
+*****************07/09/2016 22:49:54.242*****************
+22:49:54.244 -> Devox v 1.3.160830.16
+22:50:03.092 -> Nuevo intento de acceso con usuario: admin
+22:50:04.063 -> Ingresó como usuario con permisos
+22:50:04.205 -> El usario cerró el programa
+
+22:50:04.521 -> Se abrió una nueva ventana Home
+22:50:04.607 -> Actions created
+22:50:06.705 -> Abre ver devoluciones
+*****************07/09/2016 22:50:30.753*****************
+22:50:30.758 -> Devox v 1.3.160830.16
+22:50:35.739 -> Nuevo intento de acceso con usuario: admin
+22:50:36.289 -> Ingresó como usuario con permisos
+22:50:36.392 -> El usario cerró el programa
+
+22:50:36.588 -> Se abrió una nueva ventana Home
+22:50:36.598 -> Actions created
+22:50:38.676 -> Abre ver estados
+*****************07/09/2016 22:58:33.972*****************
+22:58:33.974 -> Devox v 1.3.160830.16
+22:58:39.325 -> Nuevo intento de acceso con usuario: admin
+22:58:39.850 -> Ingresó como usuario con permisos
+22:58:39.926 -> El usario cerró el programa
+
+22:58:40.068 -> Se abrió una nueva ventana Home
+22:58:40.077 -> Actions created
+22:58:44.977 -> Abre ver estados
+*****************07/09/2016 23:07:28.645*****************
+23:07:28.648 -> Devox v 1.3.160830.16
+23:07:35.659 -> Nuevo intento de acceso con usuario: admin
+23:07:36.172 -> Ingresó como usuario con permisos
+23:07:36.242 -> El usario cerró el programa
+
+23:07:36.388 -> Se abrió una nueva ventana Home
+23:07:36.398 -> Actions created
+23:07:41.945 -> Abre ver estados
+23:08:05.356 -> Abre ver reportes
+*****************07/09/2016 23:11:17.658*****************
+23:11:17.663 -> Devox v 1.3.160830.16
+23:11:22.172 -> Nuevo intento de acceso con usuario: admin
+23:11:22.890 -> Ingresó como usuario con permisos
+23:11:22.978 -> El usario cerró el programa
+
+23:11:23.175 -> Se abrió una nueva ventana Home
+23:11:23.187 -> Actions created
+23:11:29.588 -> Abre ver reportes
+*****************07/09/2016 23:12:26.609*****************
+23:12:26.611 -> Devox v 1.3.160830.16
+23:12:32.053 -> Nuevo intento de acceso con usuario: admin
+23:12:32.565 -> Ingresó como usuario con permisos
+23:12:32.646 -> El usario cerró el programa
+
+23:12:32.805 -> Se abrió una nueva ventana Home
+23:12:32.818 -> Actions created
+23:12:35.963 -> Abre ver reportes
+*****************07/09/2016 23:14:58.749*****************
+23:14:58.752 -> Devox v 1.3.160830.16
+23:15:12.096 -> Nuevo intento de acceso con usuario: admin
+23:15:12.491 -> Ingresó como usuario con permisos
+23:15:12.550 -> El usario cerró el programa
+
+23:15:12.676 -> Se abrió una nueva ventana Home
+23:15:12.682 -> Actions created
+23:15:16.502 -> Abre ver reportes
+*****************07/09/2016 23:24:55.833*****************
+23:24:55.862 -> Devox v 1.3.160830.16
+23:25:00.816 -> Nuevo intento de acceso con usuario: admin
+23:25:01.235 -> Ingresó como usuario con permisos
+23:25:01.302 -> El usario cerró el programa
+
+23:25:01.424 -> Se abrió una nueva ventana Home
+23:25:01.430 -> Actions created
+23:25:03.769 -> Abre ver reportes
+*****************07/09/2016 23:26:09.568*****************
+23:26:09.570 -> Devox v 1.3.160830.16
+23:26:13.345 -> El usuario cerro la ventana de Login
+*****************07/09/2016 23:26:50.143*****************
+23:26:50.146 -> Devox v 1.3.160830.16
+23:26:56.725 -> Nuevo intento de acceso con usuario: admin
+23:26:57.119 -> Ingresó como usuario con permisos
+23:26:57.179 -> El usario cerró el programa
+
+23:26:57.331 -> Se abrió una nueva ventana Home
+23:26:57.338 -> Actions created
+23:27:00.927 -> Abre ver reportes
+*****************07/09/2016 23:46:45.994*****************
+23:46:45.996 -> Devox v 1.3.160830.16
+23:46:50.549 -> Nuevo intento de acceso con usuario: admin
+23:46:51.011 -> Ingresó como usuario con permisos
+23:46:51.069 -> El usario cerró el programa
+
+23:46:51.183 -> Se abrió una nueva ventana Home
+23:46:51.189 -> Actions created
+23:46:53.236 -> Abre ver reportes
+*****************07/09/2016 23:51:47.384*****************
+23:51:47.386 -> Devox v 1.3.160830.16
+23:51:53.280 -> Nuevo intento de acceso con usuario: admin
+23:51:53.737 -> Ingresó como usuario con permisos
+23:51:53.818 -> El usario cerró el programa
+
+23:51:53.978 -> Se abrió una nueva ventana Home
+23:51:53.987 -> Actions created
+23:51:55.952 -> Abre ver reportes
+*****************07/09/2016 23:56:21.414*****************
+23:56:21.417 -> Devox v 1.3.160830.16
+23:56:59.372 -> Nuevo intento de acceso con usuario: admin
+23:56:59.767 -> Ingresó como usuario con permisos
+23:56:59.836 -> El usario cerró el programa
+
+23:57:00.022 -> Se abrió una nueva ventana Home
+23:57:00.029 -> Actions created
+23:57:02.870 -> Abre ver reportes
+*****************07/09/2016 23:58:05.069*****************
+23:58:05.071 -> Devox v 1.3.160830.16
+23:58:09.418 -> Nuevo intento de acceso con usuario: admin
+23:58:09.854 -> Ingresó como usuario con permisos
+23:58:09.935 -> El usario cerró el programa
+
+23:58:10.110 -> Se abrió una nueva ventana Home
+23:58:10.120 -> Actions created
+23:58:12.965 -> Abre ver reportes
+*****************07/09/2016 23:59:03.734*****************
+23:59:03.736 -> Devox v 1.3.160830.16
+23:59:08.871 -> Nuevo intento de acceso con usuario: admin
+23:59:09.333 -> Ingresó como usuario con permisos
+23:59:09.409 -> El usario cerró el programa
+
+23:59:09.574 -> Se abrió una nueva ventana Home
+23:59:09.581 -> Actions created
+23:59:19.695 -> Abre ver reportes
+*****************08/09/2016 00:06:59.151*****************
+00:06:59.153 -> Devox v 1.3.160830.16
+00:07:03.232 -> El usuario cerro la ventana de Login
+*****************08/09/2016 00:07:13.336*****************
+00:07:13.338 -> Devox v 1.3.160830.16
+00:07:18.599 -> Nuevo intento de acceso con usuario: admin
+00:07:19.059 -> Ingresó como usuario con permisos
+00:07:19.126 -> El usario cerró el programa
+
+00:07:19.281 -> Se abrió una nueva ventana Home
+00:07:19.292 -> Actions created
+00:07:22.261 -> Abre ver reportes
+*****************08/09/2016 00:08:20.824*****************
+00:08:20.826 -> Devox v 1.3.160830.16
+00:08:27.522 -> El usuario cerro la ventana de Login
+*****************08/09/2016 00:08:56.896*****************
+00:08:56.898 -> Devox v 1.3.160830.16
+00:09:01.812 -> Nuevo intento de acceso con usuario: admin
+00:09:02.238 -> Ingresó como usuario con permisos
+00:09:02.305 -> El usario cerró el programa
+
+00:09:02.494 -> Se abrió una nueva ventana Home
+00:09:02.500 -> Actions created
+00:09:05.654 -> Abre ver reportes
+*****************08/09/2016 00:09:33.016*****************
+00:09:33.019 -> Devox v 1.3.160830.16
+00:09:37.243 -> Nuevo intento de acceso con usuario: admin
+00:09:37.685 -> Ingresó como usuario con permisos
+00:09:37.750 -> El usario cerró el programa
+
+00:09:37.878 -> Se abrió una nueva ventana Home
+00:09:37.886 -> Actions created
+00:09:46.183 -> Abre ver reportes
+*****************08/09/2016 00:10:18.201*****************
+00:10:18.204 -> Devox v 1.3.160830.16
+00:10:23.817 -> Nuevo intento de acceso con usuario: admin
+00:10:24.219 -> Ingresó como usuario con permisos
+00:10:24.277 -> El usario cerró el programa
+
+00:10:24.461 -> Se abrió una nueva ventana Home
+00:10:24.468 -> Actions created
+00:10:26.581 -> Abre ver reportes
+*****************08/09/2016 00:11:06.406*****************
+00:11:06.408 -> Devox v 1.3.160830.16
+00:11:12.048 -> Nuevo intento de acceso con usuario: admin
+00:11:12.439 -> Ingresó como usuario con permisos
+00:11:12.495 -> El usario cerró el programa
+
+00:11:12.673 -> Se abrió una nueva ventana Home
+00:11:12.680 -> Actions created
+00:11:15.166 -> Abre ver reportes
+*****************08/09/2016 00:15:46.304*****************
+00:15:46.309 -> Devox v 1.3.160830.16
+00:15:51.377 -> Nuevo intento de acceso con usuario: admin
+00:15:51.787 -> Ingresó como usuario con permisos
+00:15:51.843 -> El usario cerró el programa
+
+00:15:52.027 -> Se abrió una nueva ventana Home
+00:15:52.033 -> Actions created
+00:15:54.088 -> Abre ver reportes
+*****************08/09/2016 00:20:33.569*****************
+00:20:33.570 -> Devox v 1.3.160830.16
+00:20:41.340 -> Nuevo intento de acceso con usuario: admin
+00:20:41.736 -> Ingresó como usuario con permisos
+00:20:41.801 -> El usario cerró el programa
+
+00:20:41.937 -> Se abrió una nueva ventana Home
+00:20:41.945 -> Actions created
+00:20:44.274 -> Abre ver reportes
+*****************12/09/2016 11:33:47.671*****************
+11:33:47.678 -> Devox v 1.3.160830.16
+11:33:51.106 -> El usuario cerro la ventana de Login

@@ -1,0 +1,75 @@
+*****************04/10/2016 09:43:14.346*****************
+09:43:14.348 -> Devox v 1.3.160830.16
+09:43:40.567 -> Nuevo intento de acceso con usuario: admin
+09:43:41.366 -> Ingresó como usuario con permisos
+09:43:41.504 -> El usario cerró el programa
+
+09:43:41.628 -> Se abrió una nueva ventana Home
+09:43:41.638 -> Actions created
+09:43:57.693 -> Abre ver estados
+10:13:26.840 -> nuevaDevolucion con posicion captura: 0
+10:13:26.904 -> Nueva devolución: 000980
+10:13:35.676 -> Abre ver estados
+10:13:37.848 -> Abre ver reportes
+10:13:46.793 -> Abre ver estados
+10:15:11.868 -> Abre ver devoluciones
+10:15:21.835 -> Abre ver estados
+10:29:03.985 -> Seleccionar todos los de dictamen
+10:29:06.573 -> Solo imprimir los que estan en dictamen
+10:31:07.089 -> Guardado pdf "/Folios_Dictamen_04_10_2016.pdf"));
+10:31:17.708 -> Abre ver devoluciones
+10:31:32.994 -> Abre ver estados
+*****************05/10/2016 11:27:15.174*****************
+11:27:15.176 -> Devox v 1.3.160830.16
+*****************10/10/2016 20:26:32.116*****************
+20:26:32.118 -> Devox v 1.3.160830.16
+20:26:41.220 -> Nuevo intento de acceso con usuario: admin
+20:26:42.103 -> Ingresó como usuario con permisos
+20:26:42.347 -> El usario cerró el programa
+
+20:26:42.674 -> Se abrió una nueva ventana Home
+20:26:42.831 -> Actions created
+20:26:45.285 -> Abre ver catálogo
+*****************13/10/2016 08:33:31.436*****************
+08:33:31.437 -> Devox v 1.3.160830.16
+08:33:38.563 -> Nuevo intento de acceso con usuario: admin
+08:33:39.151 -> Ingresó como usuario con permisos
+08:33:39.374 -> El usario cerró el programa
+
+08:33:39.724 -> Se abrió una nueva ventana Home
+08:33:39.913 -> Actions created
+08:33:43.562 -> Abre ver catálogo
+08:35:04.854 -> Abre ver devoluciones
+*****************13/10/2016 09:46:09.808*****************
+09:46:09.809 -> Devox v 1.3.160830.16
+09:46:19.792 -> Nuevo intento de acceso con usuario: admin
+09:46:20.273 -> Ingresó como usuario con permisos
+09:46:20.401 -> El usario cerró el programa
+
+09:46:20.825 -> Se abrió una nueva ventana Home
+09:46:20.904 -> Actions created
+09:46:23.852 -> nuevaDevolucion con posicion captura: 0
+09:46:23.955 -> Nueva devolución: 000980
+09:48:44.705 -> Setting the Tarima
+09:48:44.775 -> Esta tarima aún no está cerrada
+09:48:44.799 -> La tarima
+09:48:44.799 -> Procede a capturar la devolución 000980 nueva
+09:49:08.709 -> Abre ver devoluciones
+09:49:39.784 -> Guardado en PDF! pdf.crear(new File("/Reportes/Destruccion/Folio_000979.pdf"));
+09:50:31.497 -> Abre ver catálogo
+09:51:38.951 -> ROW SELECTED: 1
+09:51:39.035 -> ROW SELECTED: 1
+*****************14/10/2016 13:24:04.082*****************
+13:24:04.113 -> Devox v 1.3.160830.16
+13:24:40.429 -> Nuevo intento de acceso con usuario: admin
+13:24:40.996 -> Ingresó como usuario con permisos
+13:24:41.162 -> El usario cerró el programa
+
+13:24:41.530 -> Se abrió una nueva ventana Home
+13:24:41.576 -> Actions created
+13:24:48.110 -> Abre ver devoluciones
+*****************14/10/2016 18:17:50.364*****************
+18:17:50.381 -> Devox v 1.3.161005.18
+18:17:58.003 -> El usuario cerro la ventana de Login
+*****************14/10/2016 18:18:11.930*****************
+18:18:11.933 -> Devox v 1.3.161005.18
